@@ -7,7 +7,7 @@ class Instance {
         this.guild = guild;
         this.config = {
             channels: [
-                "chat",
+                "┋💬・chat",
                 "nose-boop"
             ]
         }
