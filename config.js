@@ -1,4 +1,0 @@
-module.exports = {
-    TOKEN_PROD: "OTg2MzQ2MDkxODExMzA3NTgy.GaIJEV.wyAerPlQEqEhezy5yV-PVRkcFE65N1qVq2s_i0",
-    TOKEN_DEV: "OTg2MzQ3MDM3NjQzNjY5NjA0.Go5UUy.w1M-Q3pGMx7bloP5_qLE7K174uJaytuQnY4a0c"
-}
