@@ -18,8 +18,6 @@ class InstanceManager {
         const guildId = msg.guild.id;
         const instance = this.sessions.get(guildId);
 
-        msg.content = this.wordFilter.filter(msg.content);
-
         if (instance) {
             instance.onMessageCreate(msg)
         }
@@ -28,7 +26,7 @@ class InstanceManager {
     _initSessions() {
         if (!this.sessions.size) {
             for (const [guildId, guild] of this.client.guilds.cache.entries()) {
-                const instance = new Instance(guild, DAL);
+                const instance = new Instance(guild);
                 instance.init();
                 this.sessions.set(guildId, instance);
             }
@@ -36,7 +34,7 @@ class InstanceManager {
     }
 
     _initSession(guild) {
-        const instance = new Instance(guild, DAL);
+        const instance = new Instance(guild);
         instance.init();
         this.sessions.set(guild.id, instance);
     }
@@ -64,7 +62,6 @@ class InstanceManager {
             this.client.login(config.TOKEN_PROD);
         }
 
-        this._setup();
         this._setEvents();
     }
 
