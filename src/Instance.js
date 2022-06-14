@@ -20,7 +20,7 @@ class Instance {
 
     _setGoodnightMessage() {
         new CronJob(
-            '0 0 23 * * *',
+            '0 0 0 * * *',
             () => this._sendGoodnightEmbed(),
             null,
             true,
@@ -33,13 +33,19 @@ class Instance {
             channel: this.channel
         }
 
-        GoodnightEmbed.send(model);
+        if (this.channel) {
+            GoodnightEmbed.send(model);
+        }
     }
 
     _isAllowedChannel(channelname) {
-        const isAllowedChannel = this.config.channels.find(
-            channel => channel.includes(channelname)
-        ) != undefined;
+        let isAllowedChannel = false;
+
+        this.config.channels.forEach((channel) => {
+            if (channelname.includes(channel)) {
+                isAllowedChannel = true;
+            }
+        })
 
         return isAllowedChannel;
     }
