@@ -3,25 +3,12 @@ const Discord = require("discord.js");
 class GoodnightEmbed {
 
     send(model) {
-        const examples = `
-\`\`\`
-r/help
-r/leaderboard
-r/rank @mention
-\`\`\`
-`
         const embed = new Discord.MessageEmbed()
-            .setColor('#DAA520')
-            .setTitle("❓ Help             ")
+            .setColor('#000000')
+            .setImage("https://i.imgur.com/mQW5gdY.jpg")
             .addFields(
-                { name: 'help', value: 'Show this message.', inline: true },
-                { name: 'leaderboard', value: 'Show the top message writers on the server during the current period.', inline: true },
-                { name: 'leastactive', value: 'Show who has been active in the server, starting from the least active.', inline: true },
-                { name: 'rank', value: 'Show the rank of the mentioned user.', inline: true },
-                { name: 'usage examples:', value: examples}
-              )
-            .setThumbnail('https://i.imgur.com/v5RR3ro.png')
-            .setFooter({ text: 'Author: \\ (Barretta)', iconURL: 'https://i.imgur.com/lyv8H8C.png' });
+                { name: '---', value: '\`Buonanotte ❤️\`', inline: true }
+            )
 
         const embedContainer = { 
             embeds: [embed],
