@@ -20,7 +20,7 @@ class Instance {
 
     _setGoodnightMessage() {
         new CronJob(
-            '0 0 0 * * *',
+            '0 0 23 * * *',
             () => this._sendGoodnightEmbed(),
             null,
             true,
