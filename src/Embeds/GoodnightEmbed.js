@@ -5,7 +5,7 @@ class GoodnightEmbed {
     send(model) {
         const embed = new Discord.MessageEmbed()
             .setColor('#000000')
-            .setImage("https://i.imgur.com/mQW5gdY.jpg")
+            .setImage("https://i.imgur.com/88bggyJ.png")
             .addFields(
                 { name: '---', value: '\`Buonanotte ❤️\`', inline: true }
             )
