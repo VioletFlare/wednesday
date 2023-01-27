@@ -52,6 +52,7 @@ Sei al bordo di un treno. Con la coda dell'occhio vedi un tipo strano guardare s
 Qual è il tuo più grande sogno nel cassetto?
 Ti piacciono gli anime? Qual'è il tuo preferito?
 Cantante o gruppo preferito?
+Quali sono i tuoi social preferiti o gli strumenti di comunicazione che utilizzi?
 Se avessi la possibilità di essere qualcun altro, chi saresti?
 Qual è la tua professione o cosa ti piacerebbe fare come lavoro?
 Sei una persona asociale o non ti piace socializzare per niente?
@@ -107,6 +108,7 @@ La persona che ti è piaciuta per tanto tempo decide di uscire con te e non vuoi
 Qual è la cosa a cui sei più legato/a?
 Se potessi svegliarti domani avendo acquisito una qualsiasi qualità o abilità, quale sarebbe?
 Bevanda alcolica preferita?
+Cosa ne pensi degli social? Sono utili secondo te o sono un vuoto inutile di affermazioni senza senso come disse Mercoledì?
 Esiste un metodo per sconfiggere Nicola? 
 Come affronti il fatto di prenderti del tempo libero dal lavoro?
 Ti dà fastidio se ti toccano i capelli?
@@ -115,7 +117,7 @@ Se una sfera di cristallo potesse dirti la verità su te stesso/a, sulla tua vit
 Ascolti musica? Che generi? Qual è la tua canzone preferita?
 Qual è la cosa più costosa che ti sei comprato? Qual è la cosa più costosa che hai regalato a qualcuno?
 Qual è il tuo cibo preferito?
-Qualcuno tradisce la tua fiducia
+Qualcuno tradisce la tua fiducia. Come ti comporti?
 Quale secondo te sarebbe il tuo animale da compagnia perfetto?
 Viviamo in un mondo sempre più teconologico. La tecnologia secondo te è utile? Qual'è la tua invenzione teconologica preferita?
 Qual è la prima cosa che fai dopo essere tornato a casa dal lavoro?
