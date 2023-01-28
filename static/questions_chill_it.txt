@@ -108,6 +108,7 @@ Cosa faresti se avessi un milione di euro?
 Qual è la tua più grande fonte di ispirazione?
 Cosa ne pensi di Cthulhu?
 Qual è la tua Serie TV preferita?
+Elemento preferito della tabella periodica?
 Cosa valuti maggiormente in un’amicizia?
 Un giorno incontri un esponente di una società segreta. Ad un certo punto si svela, che è un Vampiro e la società che rappresenta è una società che permette ai Vampiri di coesistere con gli esseri umani nel mondo moderno. Qual'è la tua reazione?
 Stai passando dei tempi veramente pessimi. Sia nel senso personale, sia nel senso professionale. Come gestisci questa cosa per rilassarti o per non pensare alle emozioni negative?
@@ -222,3 +223,12 @@ Come descriveresti questo posto in una parola?
 Quando vuoi informarti sulle notizie, a quali mezzi ricorri? TV, Giornali, Internet?
 Qual è il tuo frutto preferito?
 Cosa deve essere rotto prima che tu possa utilizzarlo?
+Hai dei segreti o sei una persona aperta? Se hai dei segreti quanto è importante per te che nessuno li sappia?
+Come ti travestiresti a Halloween?
+Qual è la tua fiaba preferita?
+Preferisci passare il tuo tempo a casa o fuori?
+Secondo te, nella tua vita, in quale momento sei ora? Che cosa ti fa piacere di più di questa cosa?
+Sei pieno di vita ed energico o stufato degli ardori della vita?
+Cosa ne pensi del marketing, secondo te è utile?
+Qual è il tuo minerale preferito?
+Qual è la tua condizione meteorologica preferita? Neve, pioggia, vento, sole, nebbia, nuvoloso, tempesta di sabbia...
