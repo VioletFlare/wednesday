@@ -101,6 +101,7 @@ Qual è il tuo energy drink preferito?
 Immagina di essere una persona creativa e avere ampie conoscenze su come creare giochi e simulazioni. Se potresti creare un gioco, che gioco sarebbe e di che cosa parlerebbe?
 Qual è il tuo più grande regalo?
 Qual è la tua app di telefono preferita?
+Sei convinto di sapere tutto quello che devi sapere oppure ci sono delle lacune? Puoi affermare con fermezza che hai abbastanza conoscenze o vorresti imparare qualcosa di nuovo?
 Quand’è stata l’ultima volta che hai cantato da sola/o? E davanti a qualcun altra/o?
 Qual è il tuo gusto di gelato preferito?
 Qual è la tua materia preferita a scuola? O se non ci vai più, quale era?
@@ -281,6 +282,7 @@ Qual è il sito web che visiti di più? E' il tuo preferito?
 Cosa deve essere rotto prima che tu possa utilizzarlo?
 Hai dei segreti o sei una persona aperta? Se hai dei segreti quanto è importante per te che nessuno li sappia?
 Come ti travestiresti a Halloween?
+Sapevi che puoi bloccare le pubblicità nel browser? Sei d'accordo con questa cosa? Se si, quale applicativo usi per bloccarle?
 Ti piace spruzzarti i profumi addosso? Che tipo di profumo è il tuo preferito?
 Qual è la tua fiaba preferita?
 Qual è il tuo periodo storico preferito?
@@ -311,3 +313,14 @@ Se dovessi scegliere un'applicativo del pacchetto office, quale sceglieresti? Qu
 Sei vivo/a?
 Ti trovi in un deserto, ampio, desolato, senza alcuna compagnia: poi avvisti un cubo. quanto è grande? Dove si trova esattamente? È immerso nella sabbia oppure galleggia in aria? Si muove? È solido o inconsistente?
 Vorresti essere ricco e solo, o essere povero ma avere tanti amici? Perchè?
+Ti piace osservare quello che fanno gli altri oppure preferisci essere osservato/a?
+Pensi di essere capace di tutto quello che ti serve oppure no? Se no, quale abilità ti piacerebbe sviluppare?
+Qual'è l'opera d'arte che ti ha ispirato di più o ti piaceva com'era fatta? Perchè?
+La moda è sempre in evoluzione. Rimpiangi qualcosa che una volta era di moda e ora non lo è più? Quale moda o tendenza speri che ritorni?
+Se potessi sostituire delle parti del tuo corpo con parti cibernetiche e moduli elettronici che potrebbero migliorare le tue prestazioni fisiche o intellettuali, lo faresti? Cosa ti saresti installato/a?
+Se potessi non dormire mai, cosa faresti con il tempo guadagnato?
+Quando le persone vengono da te per chiedere aiuto, di solito di quale argomento si tratta?
+Se fossi il dittatore di una nazione, quali leggi folli promulgheresti?
+Se avessi fondi illimitati per costruire la casa in cui vivere per il resto della vita, come sarebbe una volta finita?
+Pensi che molte cose vanno date per scontato? Quali?
+Quale obiettivo cerchi di più di ogni altra cosa? Qual è il “Santo Graal” della tua vita?
