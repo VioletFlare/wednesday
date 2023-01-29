@@ -69,6 +69,7 @@ Sei al bordo di un treno. Con la coda dell'occhio vedi un tipo strano guardare s
 Qual è il tuo più grande sogno nel cassetto?
 Ti piacciono gli anime? Qual'è il tuo preferito?
 Cantante o gruppo preferito?
+Quanti amici hai su discord?
 Quali sono i tuoi social preferiti o gli strumenti di comunicazione che utilizzi?
 Se avessi la possibilità di essere qualcun altro, chi saresti?
 Qual è la tua professione o cosa ti piacerebbe fare come lavoro?
@@ -132,6 +133,7 @@ Stai passando dei tempi veramente pessimi. Sia nel senso personale, sia nel sens
 Qual è il tuo più grande traguardo?
 Se potessi cambiare una parte del tuo corpo, quale sarebbe?
 Qual è il tuo hobby creativo?
+Riesci a ricordare i sogni che fai?
 Quando e come hai scoperto che Babbo Natale non esiste?
 Preferisci il mare o la montagna?
 Sei un professore in una scuola, ma non riesci a essere abbastanza autorevole. Tuoi alunni ogni giorno ti prendono in giro, cosa fai?
@@ -159,6 +161,7 @@ Se una sfera di cristallo potesse dirti la verità su te stesso/a, sulla tua vit
 Ascolti musica? Che generi? Qual è la tua canzone preferita?
 Qual è la cosa più costosa che ti sei comprato? Qual è la cosa più costosa che hai regalato a qualcuno?
 Qual è il tuo cibo preferito?
+Avete mai barato nelle verifiche a scuola? Quante volte? Tante, poche, mai?
 Che tipo di telefono usi? Ti piace? Ti dura tanto la carica?
 Qualcuno tradisce la tua fiducia. Come ti comporti?
 Quale secondo te sarebbe il tuo animale da compagnia perfetto?
@@ -168,6 +171,7 @@ Una persona che una volta consideravi amica diffonde di te cose spiacevoli e non
 Qual è il tuo più grande obiettivo?
 Pensi che ci sia la vita prima della vita?
 Come ti immagini il mondo fra 10 anni?
+Ti piace di più fare il bagno nella vasca o nella doccia?
 Ti piace giocare? Quali sono i tuoi giochi preferiti? 
 Ognuno desidera qualcosa. Qual è il tuo più grande desiderio?
 Qual è il tuo modo preferito per rilassarti?
@@ -247,6 +251,7 @@ Sei un/a pirata? Se no, ti piacerebbe esserlo? Yarr!
 Cosa ne pensi delle arti marziali? C'è un'arte marziale in particolare che ti attira per qualche motivo?
 Ogni anno migliaia di account su diversi servizi vengono compromessi a causa delle password semplici da indovinare. Secondo le statistiche, nel 2022 in Italia, le 5 password più comuni erano "123456", "123456789", "password", "ciao" e "juventus". Cosa ne pensi di tale fatto?
 Come descriveresti questo posto in una parola?
+Ti ricordi cosa hai sognato oggi?
 Quando vuoi informarti sulle notizie, a quali mezzi ricorri? TV, Giornali, Internet?
 Qual è il tuo frutto preferito?
 Cosa deve essere rotto prima che tu possa utilizzarlo?
