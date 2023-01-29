@@ -47,6 +47,7 @@ Che tipo di cibo non proveresti mai?
 Qual è la città più interessante che hai visitato?
 Qual è la tua memoria più vivida di quando eri bambino?
 Quanto sei bravo/a a cucinare?
+Secondo te, la situazione nel mondo d'oggi e chiara e pensi di capire cosa succede o è tutto un casino?
 Hai mai avuto un diario? (Non quello di scuola, ma quello per scrivere le memorie)
 Ti piace la poesia? Qual'è la poesia o il poeta che ti piace o ti ha colpito di più?
 Qual è la tua più grande sfida?
@@ -87,6 +88,7 @@ Ti piacciono i piercing? Porti collane e gioielli vari?
 Qual è la tua stagione preferita e perché?
 Qual è il tuo film preferito? Pensi di poterne consigliare qualcuno?
 Cosa preferisci fare nei tuoi giorni liberi?
+Hai mai pensato a investire in borsa? Se si, in che cosa investiresti?
 Qual è il tuo più grande dono?
 Qual'è la caratteristica di te stesso/a che ti piace di più e che vorresti mantenere e non perdere mai? 
 Dove ti vedi fra cinque anni?
@@ -97,6 +99,7 @@ Qual è il tuo più grande rimpianto?
 Qual è il tuo energy drink preferito?
 Immagina di essere una persona creativa e avere ampie conoscenze su come creare giochi e simulazioni. Se potresti creare un gioco, che gioco sarebbe e di che cosa parlerebbe?
 Qual è il tuo più grande regalo?
+Qual è la tua app di telefono preferita?
 Quand’è stata l’ultima volta che hai cantato da sola/o? E davanti a qualcun altra/o?
 Qual è il tuo gusto di gelato preferito?
 Qual è la tua materia preferita a scuola? O se non ci vai più, quale era?
@@ -157,6 +160,7 @@ Qual è la tua arma da fuoco preferita? che vorresti imparare a padroneggiare? S
 Qual'è la caratteristica di te stesso/a che vorresti cambiare in qualcosa di diverso?
 Cosa ne pensi degli social? Sono utili secondo te o sono un vuoto inutile di affermazioni senza senso come disse Mercoledì?
 Esiste un metodo per sconfiggere Nicola? 
+Sapevi che esistevano dei codici segreti per Android che puoi inserire nella schermata di composizione del numero e far fare cose strane al tuo telefono?
 Hai mai scritto una poesia o un Haiku?
 Come affronti il fatto di prenderti del tempo libero dal lavoro?
 Ti dà fastidio se ti toccano i capelli?
@@ -196,6 +200,7 @@ Ti sei mai svegliato una mattina pentendoti di quel che hai fatto durante la not
 Come reagirebbe il tuo io di 10 anni a quello che fai ora?
 Quanti anni avevi quando avevi bevuto così tanto da ubriacarti per la prima volta nella tua vita? Com'era questa esperienza?
 Quanto era diversa la tua vita un anno fa?
+Se avessi tanti soldi, come gli terresti? In banca, a casa nella cassaforte o sepolti da qualche parte come un pirata? In che forma? Opere d'arte, oro, gioielli, contanti?
 Se un giorno ti svegliassi come una persona di sesso opposto, come gestiresti la situazione?
 Qual è l'ultimo libro che hai letto?
 Che cosa ti ha insegnato la tua vita fino al giorno d'oggi?
@@ -204,6 +209,7 @@ I tuoi colleghi/compagni di classe vanno d'accordo con te oppure no? Sei uno/a c
 Qual'è il tuo tipo di tè preferito? Yerba Mate, Lipton, Tè Indiano...? Come lo bevi? Aggiungi qualcosa?
 Sei in ufficio davanti alla macchinetta dell'acqua pensando ad affari tuoi. Ad un certo punto, un collega viene vicino a te e inizia a parlare male del vostro manager. Come ti comporti?
 Qual'è la tua stagione preferita?
+Qual'è il tuo programma di computer preferito?
 Gli Stoici dicevano, che ogni cosa nella vita è inevitabile, perchè è stata disegnata nel grande piano delle cose chiamato destino. Per altri come Nietzsche, non c'è un destino ma tutto è caos. Tu credi nel destino?
 Se dovessi appartenere ad una organizzazione, che organizzazione sarebbe? Strutturata, Anarchica, Globalista, Tradizionale o Segreta?
 Hai già fatto l'università? Com'è? Ti è piaciuto? Altrimenti, qual'è l'indirizzo universitario che ti interesserebbe di più?
@@ -213,6 +219,7 @@ Stai andando giù per la strada vestito come piace a te. Cosa vede la gente ment
 Cosa hai mangiato di recente?
 Sono le ore 04:00 di mattina in un parco pubblico. La tua serata era sfrenata, ma ora sei inseguito/a da un gorilla psicopatico pluriomicida che vuole farti tanto male. Qual'è il tuo piano per rispondere a questa minaccia?
 PEPSI o Coca-Cola?
+Cosa ne pensi dell'intelligenza artificiale? Stravolgerà il mondo, lo conquisterà superando l'uomo sotto tutti gli aspetti ed esploderà nell'automiglioramento infinito? Oppure assisterà l'essere umano nei suoi compiti?
 Credi nelle creature mitologiche o fantastiche? Troll, giganti, streghe, vampiri, lupi mannari?
 Se dovessi fare un film. Che film faresti?
 Se ti rimanesse un'ora di vita, come la passeresti?
@@ -234,6 +241,7 @@ Sei uno stacanovista o uno che prende il lavoro alla leggera?
 In un’apocalisse di zombie, quale sarebbe la tua arma preferita?
 Preferiresti perdere tutti i tuoi soldi e gli oggetti di valore o tutte le foto che hai scattato?
 Come sarebbe la camera da letto dei tuoi sogni?
+Vai a scuola? O quando andavi a scuola facevi i compiti? Con quale cadenza?
 Se andassi in coma e ti svegliassi nell’anno 2077, quale sarebbe la prima cosa che vorresti sapere?
 Pensi che oltre al nostro pianeta c'è possibilità che la vita possa esistere altrove?
 Se avessi la possibilità di reincarnarti in un'altro essere. In che essere ti reincarneresti?
@@ -243,6 +251,7 @@ Hai sogni piacevoli o incubi? Che effetto ti danno gli incubi? Ne puoi racconatr
 Cosa ne pensi del fatto, che nei telegiornali e cronache si parli sempre di notizie non buone, come gli omicidi? Questa pratica rivela qualcosa?
 Il sistema solare è composto da 8 pianeti. Mercurio, Venere, Terra, Marte, Giove, Saturno, Urano, Nettuno. Quale pianeta è il tuo preferito?
 Ti piace il tuo compleanno?
+"Mi spiace". Perché? "Non sono alla sua altezza". Qualcuno ha mai risposto così?
 Preferisci la notte o il giorno?
 Verso quale ora vai a dormire e ti svegli di solito durante la settimana? Dormi di più il weekend?
 Qual è il tuo tipo di gelato preferito?
@@ -257,6 +266,7 @@ Sei un/a pirata? Se no, ti piacerebbe esserlo? Yarr!
 Cosa ne pensi delle arti marziali? C'è un'arte marziale in particolare che ti attira per qualche motivo?
 Ogni anno migliaia di account su diversi servizi vengono compromessi a causa delle password semplici da indovinare. Secondo le statistiche, nel 2022 in Italia, le 5 password più comuni erano "123456", "123456789", "password", "ciao" e "juventus". Cosa ne pensi di tale fatto?
 Come descriveresti questo posto in una parola?
+Ti è mai stato rubato un account? Sei riuscito a recuperarlo? Cosa ne pensi degli hacker?
 Ti ricordi cosa hai sognato oggi?
 Quando vuoi informarti sulle notizie, a quali mezzi ricorri? TV, Giornali, Internet?
 Qual è il tuo frutto preferito?
@@ -290,3 +300,5 @@ Cosa ne pensi di figli, vorresti mai averli? Se si, quanti?
 Qual'è il tuo colore di penna preferito?
 Stai giocando a The Sims. Che tipo di famiglia fai?
 Esiste un detto che dice: Si chiude una porta, si apre un portone. Secondo te cosa significa? Sei d'accordo con questo detto?
+Se dovessi scegliere un'applicativo del pacchetto office, quale sceglieresti? Quale secondo te è il tuo preferito?
+Sei vivo/a?
