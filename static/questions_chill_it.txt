@@ -91,6 +91,7 @@ Qual è il tuo film preferito? Pensi di poterne consigliare qualcuno?
 Cosa preferisci fare nei tuoi giorni liberi?
 Hai mai pensato a investire in borsa? Se si, in che cosa investiresti?
 Qual è il tuo più grande dono?
+Guardi ogni tanto il tuo oroscopo?
 Qual è la caratteristica di te stesso/a che ti piace di più e che vorresti mantenere e non perdere mai? 
 Dove ti vedi fra cinque anni?
 Qual è la cosa più costosa che hai comprato?
@@ -141,6 +142,7 @@ Qual è il tuo più grande traguardo?
 Se potessi cambiare una parte del tuo corpo, quale sarebbe?
 Qual è il tuo hobby creativo?
 Riesci a ricordare i sogni che fai?
+Secondo te, L'Italia che paese è? Qual'è la cosa migliore in Italia?
 Quando e come hai scoperto che Babbo Natale non esiste?
 Preferisci il mare o la montagna?
 Sei un professore in una scuola, ma non riesci a essere abbastanza autorevole. Tuoi alunni ogni giorno ti prendono in giro, cosa fai?
@@ -193,6 +195,7 @@ Cosa hai fatto durante i primi mesi di lockdown dovuti alla pandemia? Ti sei div
 Se potessi assistere a qualsiasi evento del passato, presente o futuro, quale sarebbe?
 La ragione in termini semplici è l'arte di discernere il vero dal falso. A te piace ragionare?
 Qual è il tuo sport preferito?
+Se dovessi mai inventare una criptovaluta, come la chiameresti?
 A cosa pensi prima di addormentarti?
 Se potessi essere una creatura mitologica o fantastica... che cosa saresti?
 Sei una persona che ha solo amici o hai mai avuto qualcuno che potresti chiamare il tuo nemico?
@@ -227,6 +230,7 @@ Stai andando giù per la strada vestito come piace a te. Cosa vede la gente ment
 Cosa hai mangiato di recente?
 Sono le ore 04:00 di mattina in un parco pubblico. La tua serata era sfrenata, ma ora sei inseguito/a da un gorilla psicopatico pluriomicida che vuole farti tanto male. Qual è il tuo piano per rispondere a questa minaccia?
 PEPSI o Coca-Cola?
+Che nome dai alle tue reti Wi-Fi? Sono i nomi di default o ti piace cambiarli e dare dei nomi bizzarri, divertenti, eccentrici o puramente più pratici?
 Durante una calda estate, accendi l'AC per rinfrescarti o preferisci rimanere al caldo pur di non pagare bollette elevate?
 Cosa ne pensi dell'intelligenza artificiale? Stravolgerà il mondo, lo conquisterà superando l'uomo sotto tutti gli aspetti ed esploderà nell'automiglioramento infinito? Oppure assisterà l'essere umano nei suoi compiti?
 Credi nelle creature mitologiche o fantastiche? Troll, giganti, streghe, vampiri, lupi mannari?
@@ -303,6 +307,7 @@ Qual è secondo te la professione che è migliore da fare in questi anni dal pun
 Credi che esista una entità onniscente o non onniscente che governa l'universo? Secondo te l'universo ha delle leggi o è governato dal puro caos?
 Qual è la tua arma da fuoco preferita?
 Ti piace ballare?
+Hai mai fatto un sogno lucido?
 C'è stato un personaggio di anime, film, libro, Serie TV con il quale ti sei identificato/a?
 Quali sono le tue chance secondo te di sopravvivere un'apocalisse di zombie?
 Qual è il tuo gioco da tavolo preferito?
@@ -348,3 +353,14 @@ Se avessi una nave, sarebbe un yacht, un sottomarino, una nave antica, una croci
 Se ti dessero la possibilità di essere immortale, la accetteresti? Se si, che faresti con la tua immortalità?
 Pensi che i sogni abbiano un significato celato? Perchè? Oppure perchè no?
 Hai mai pensato allo spazio? Secondo te esistono dei pianeti dove accade quello che accade sul nostro pianeta?
+Se potessi svegliarti domani con una caratteristica fisica cambiata, che caratteristica sarebbe?
+Qual è il miglior nome della rete Wi-Fi che hai mai visto?
+Qual è l'ultima cosa che hai cercato su un motore di ricerca?
+La cosa migliore della tua città o paese?
+Bob?
+Cosa ne pensi dell'astrologia? Pensi che sia uno strumento utile grazie al quale si possono capire più cose?
+Quanto ti interessa in realtà delle notizie dal paese o dal mondo?
+Ascolti dei podcast? Ne potresti consigliare qualcuno?
+Hai mai pensato di investire in criptovalute? Che tipo di criptovaluta pensi che avresti investito?
+Quante lingue sai parlare?
+Secondo te, quale sarebbe il tuo partner ideale?
