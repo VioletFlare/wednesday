@@ -175,11 +175,13 @@ Qual è il tuo cibo preferito?
 Hai mai barato nelle verifiche a scuola? Quante volte? Tante, poche, mai?
 Che tipo di telefono usi? Ti piace? Ti dura tanto la carica?
 Qualcuno tradisce la tua fiducia. Come ti comporti?
+Immagina che sei un'artigiano/a. Stai facendo un vaso ceramico. Di che colore è? Ha dei dipinti? Come sono? Cosa raffigurano?
 Quale secondo te sarebbe il tuo animale da compagnia perfetto?
 Viviamo in un mondo sempre più teconologico. La tecnologia secondo te è utile? Qual è la tua invenzione teconologica preferita?
 Qual è la prima cosa che fai dopo essere tornato a casa dal lavoro?
 Una persona che una volta consideravi amica diffonde di te cose spiacevoli e non vere sparlando di te a destra e a sinistra, trascinando il tuo nome nel fango. Come ti comporti? Non reagisci oppure prendi dei provvedimenti?
 Qual è il tuo più grande obiettivo?
+Se potessi avere un video di qualsiasi evento della tua vita, quale evento sceglieresti?
 Pensi che ci sia la vita prima della vita?
 Come ti immagini il mondo fra 10 anni?
 Ti piace di più fare il bagno nella vasca o nella doccia?
@@ -191,6 +193,7 @@ Cosa hai fatto durante i primi mesi di lockdown dovuti alla pandemia? Ti sei div
 Se potessi assistere a qualsiasi evento del passato, presente o futuro, quale sarebbe?
 La ragione in termini semplici è l'arte di discernere il vero dal falso. A te piace ragionare?
 Qual è il tuo sport preferito?
+A cosa pensi prima di addormentarti?
 Se potessi essere una creatura mitologica o fantastica... che cosa saresti?
 Sei una persona che ha solo amici o hai mai avuto qualcuno che potresti chiamare il tuo nemico?
 Hai mai fatto qualche rinuncia? Qual è il tuo più grande sacrificio?
@@ -203,6 +206,7 @@ Ti sei mai svegliato una mattina pentendoti di quel che hai fatto durante la not
 Come reagirebbe il tuo io di 10 anni a quello che fai ora?
 Quanti anni avevi quando avevi bevuto così tanto da ubriacarti per la prima volta nella tua vita? Com'era questa esperienza?
 Quanto era diversa la tua vita un anno fa?
+Ti piace il periodo nel quale sei nato/a? In che periodo storico vorresti nascere? Nel passato o nel futuro?
 Se avessi tanti soldi, come gli terresti? In banca, a casa nella cassaforte o sepolti da qualche parte come un pirata? In che forma? Opere d'arte, oro, gioielli, contanti?
 Se un giorno ti svegliassi come una persona di sesso opposto, come gestiresti la situazione?
 Qual è l'ultimo libro che hai letto?
@@ -324,3 +328,14 @@ Se fossi il dittatore di una nazione, quali leggi folli promulgheresti?
 Se avessi fondi illimitati per costruire la casa in cui vivere per il resto della vita, come sarebbe una volta finita?
 Pensi che molte cose vanno date per scontato? Quali?
 Quale obiettivo cerchi di più di ogni altra cosa? Qual è il “Santo Graal” della tua vita?
+Se potessi avere una candela infinita del profumo che preferisci, quale fragranza vorresti che avesse?
+Quali sono le sfide che stai affrontando in questi giorni?
+Sei una persona che accetta responsabilità? Oppure ti lavi le mani da qualsiasi cosa troppo responsabile?
+Qual è quel pensiero o pensieri che ti accompagnano tutto il tempo?
+Qual è il titolo dell’attuale capitolo della tua vita?
+Tra i tuoi amici o familiari, per cosa sei famoso?
+Che stemma avrebbe la tua bandiera personale e di che colore/colori sarebbe?
+Se potessi stabilire una regola che tutti dovrebbero seguire, quale sarebbe?
+Giochi da console, computer o telefono? Qual'è il tuo genere di giochi preferito?
+Immagina di essere nato/a nel 1800. Come ti immagini te stesso/a in quel periodo?
+Qual'è la tua ora del giorno preferita?
