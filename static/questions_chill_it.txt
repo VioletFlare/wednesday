@@ -12,7 +12,7 @@ Preferisci il vino o la birra?
 Qual è il tuo giocattolo preferito da bambino/a?
 Con cosa mangi la focaccia di solito?
 Sei appena stato svegliato da un rumore sorprendendo i ladri in casa. Come ti comporti?
-Cosa preferisci? Soldi, potere o fama?
+Cosa preferisci? Soldi, potere, bellezza o fama?
 Ammiri le persone che compiono grandi cose? Qual è il tuo supereroe o eroe preferito vero o immaginario?
 Come ti piace tagliarti i capelli? Ti piace colorarli in una determinata maniera?
 Qual è la tua più grande lezione imparata?
@@ -313,6 +313,7 @@ Cosa ne pensi di figli, vorresti mai averli? Se si, quanti?
 Qual è il tuo colore di penna preferito?
 Stai giocando a The Sims. Che tipo di famiglia fai?
 Esiste un detto che dice: Si chiude una porta, si apre un portone. Secondo te cosa significa? Sei d'accordo con questo detto?
+Ti piacciono gli indovinelli? Sei bravo/a a risolverli?
 Se dovessi scegliere un'applicativo del pacchetto office, quale sceglieresti? Quale secondo te è il tuo preferito?
 Sei vivo/a?
 Ti trovi in un deserto, ampio, desolato, senza alcuna compagnia: poi avvisti un cubo. quanto è grande? Dove si trova esattamente? È immerso nella sabbia oppure galleggia in aria? Si muove? È solido o inconsistente?
@@ -339,3 +340,11 @@ Se potessi stabilire una regola che tutti dovrebbero seguire, quale sarebbe?
 Giochi da console, computer o telefono? Qual'è il tuo genere di giochi preferito?
 Immagina di essere nato/a nel 1800. Come ti immagini te stesso/a in quel periodo?
 Qual'è la tua ora del giorno preferita?
+Se potessi scambiare il tuo posto con qualcuno per una settimana, chi sarebbe?
+Pensi mai ai progressi tecnologici che sono stati fatti negli ultimi anni? Secondo te, quale sarebbe l'invenzione tecnologica che ti stravolgerebbe la vita? O comunque ti piacerebbe avere.
+Se potessi guardare in una palla di cristallo per vedere il futuro, lo faresti?
+Ti piacciono le giostre?
+Se avessi una nave, sarebbe un yacht, un sottomarino, una nave antica, una crociera...? Come la chiameresti?
+Se ti dessero la possibilità di essere immortale, la accetteresti? Se si, che faresti con la tua immortalità?
+Pensi che i sogni abbiano un significato celato? Perchè? Oppure perchè no?
+Hai mai pensato allo spazio? Secondo te esistono dei pianeti dove accade quello che accade sul nostro pianeta?
