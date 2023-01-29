@@ -82,6 +82,7 @@ Che cosa significa l’amicizia per te?
 Qual è il tipo di vestiti che porti? C'è un modo caratteristico nel quale ti vesti?
 Cosa prenderesti con te se la tua casa andasse a fuoco?
 Qual è la tua più grande ambizione?
+Durante un'inverno freddo, accendi i termo o preferisci stare al freddo e al massimo vestirti bene pur di non pagare bollette elevate?
 Come vedi il tuo futuro? Qual è la tua più grande ambizione per il futuro?
 Se potessi cambiare qualcosa del modo in cui sei stato/a cresciuto/a, cosa sarebbe?
 Ti piacciono i piercing? Porti collane e gioielli vari?
@@ -164,6 +165,7 @@ Sapevi che esistevano dei codici segreti per Android che puoi inserire nella sch
 Hai mai scritto una poesia o un Haiku?
 Come affronti il fatto di prenderti del tempo libero dal lavoro?
 Ti dà fastidio se ti toccano i capelli?
+Che tipo di studente/studentessa sei/eri a scuola? Studi/Studiavi? O non te ne interessava niente?
 Qual è il miglior regalo che hai ricevuto?
 Se una sfera di cristallo potesse dirti la verità su te stesso/a, sulla tua vita, il tuo futuro o su altro, cosa sceglieresti di sapere?
 Ascolti musica? Che generi? Qual è la tua canzone preferita?
@@ -203,6 +205,7 @@ Quanto era diversa la tua vita un anno fa?
 Se avessi tanti soldi, come gli terresti? In banca, a casa nella cassaforte o sepolti da qualche parte come un pirata? In che forma? Opere d'arte, oro, gioielli, contanti?
 Se un giorno ti svegliassi come una persona di sesso opposto, come gestiresti la situazione?
 Qual è l'ultimo libro che hai letto?
+Quanto spesso ti è capitato di saltare dei giorni di scuola? E perchè?
 Che cosa ti ha insegnato la tua vita fino al giorno d'oggi?
 Qual è il tuo attore/attrice preferito/a e quale secondo te è stata la sua interpretazione che te lo ha fatto considerare tale?
 I tuoi colleghi/compagni di classe vanno d'accordo con te oppure no? Sei uno/a che va d'accordo con tutti o non stringi alleanze con i comuni mortali?
@@ -219,6 +222,7 @@ Stai andando giù per la strada vestito come piace a te. Cosa vede la gente ment
 Cosa hai mangiato di recente?
 Sono le ore 04:00 di mattina in un parco pubblico. La tua serata era sfrenata, ma ora sei inseguito/a da un gorilla psicopatico pluriomicida che vuole farti tanto male. Qual è il tuo piano per rispondere a questa minaccia?
 PEPSI o Coca-Cola?
+Durante una calda estate, accendi l'AC per rinfrescarti o preferisci rimanere al caldo pur di non pagare bollette elevate?
 Cosa ne pensi dell'intelligenza artificiale? Stravolgerà il mondo, lo conquisterà superando l'uomo sotto tutti gli aspetti ed esploderà nell'automiglioramento infinito? Oppure assisterà l'essere umano nei suoi compiti?
 Credi nelle creature mitologiche o fantastiche? Troll, giganti, streghe, vampiri, lupi mannari?
 Se dovessi fare un film. Che film faresti?
@@ -239,6 +243,7 @@ Quale sarebbe la tua colazione perfetta?
 Ti piace il teatro? Hai mai pensato che vorresti recitare?
 Sei uno stacanovista o uno che prende il lavoro alla leggera?
 In un’apocalisse di zombie, quale sarebbe la tua arma preferita?
+Hai mai cercato di addentrarti nell'account di un'altra persona? Per quale motivo?
 Preferiresti perdere tutti i tuoi soldi e gli oggetti di valore o tutte le foto che hai scattato?
 Come sarebbe la camera da letto dei tuoi sogni?
 Vai a scuola? O quando andavi a scuola facevi i compiti? Con quale cadenza?
@@ -257,10 +262,12 @@ Verso quale ora vai a dormire e ti svegli di solito durante la settimana? Dormi 
 Qual è il tuo tipo di gelato preferito?
 Qual è la tua arma da fuoco preferita?ggio di programmazione? Se no, saresti interessato a impararne qualcuno? Se si, quale o cosa ci vorresti fare una volta imparato?
 Ti piace gossipare? 
+Sei una persona che vorrebbe sposarsi o preferiresti di no?
 Quando eri bambino/a, quale lavoro volevi fare da grande?
 Se dovessi creare un Azienda, che azienda sarebbe e di che cosa si occuperebbe?
 Quale caratteristica o caratteristiche cerchi nelle persone?
 Stai passando bene questi giorni?
+Il tuo giorno della settimana preferito?
 Sei una persona che si chiede spesso domande filosofiche?
 Sei un/a pirata? Se no, ti piacerebbe esserlo? Yarr!
 Cosa ne pensi delle arti marziali? C'è un'arte marziale in particolare che ti attira per qualche motivo?
@@ -302,3 +309,5 @@ Stai giocando a The Sims. Che tipo di famiglia fai?
 Esiste un detto che dice: Si chiude una porta, si apre un portone. Secondo te cosa significa? Sei d'accordo con questo detto?
 Se dovessi scegliere un'applicativo del pacchetto office, quale sceglieresti? Quale secondo te è il tuo preferito?
 Sei vivo/a?
+Ti trovi in un deserto, ampio, desolato, senza alcuna compagnia: poi avvisti un cubo. quanto è grande? Dove si trova esattamente? È immerso nella sabbia oppure galleggia in aria? Si muove? È solido o inconsistente?
+Vorresti essere ricco e solo, o essere povero ma avere tanti amici? Perchè?
