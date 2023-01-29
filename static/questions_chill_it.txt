@@ -1,12 +1,15 @@
 ﻿Qual è la cosa che ti ha più entusiasmato nell’ultimo periodo?
+Qual è la tua emoji preferita?
 Ti piace stringere nuove amicizie ed essere aperto? Diresti di essere più estroverso o introverso?
 Qual è la tua paura più grande?
 Qual è la tua più grande passione?
+Secondo te, i soldi rendono felici?
 Ci sono cose che ti piace fare? Qual è il tuo hobby preferito?
 Qual è la tua più grande risorsa?
 Sei seduto in un parco su una panchina guardando il tuo telefono. Ad un certo punto incontri una persona sconosciuta. Ti racconta, che a un suo parente è successo un grosso incidente e ha bisogno di un paio di euro per il bus per raggiungerlo. Commosso, decidi di aiutarlo dandogli i soldi per il biglietto. 10 secondi dopo vedi lo stesso sconosciuto fare lo stesso trucchetto con un'altra persona seduta accanto. Come ti comporti?
 Qual è il tuo più grande orgoglio?
 Preferisci il vino o la birra?
+Qual è il tuo giocattolo preferito da bambino/a?
 Con cosa mangi la focaccia di solito?
 Sei appena stato svegliato da un rumore sorprendendo i ladri in casa. Come ti comporti?
 Cosa preferisci? Soldi, potere o fama?
@@ -24,6 +27,7 @@ Sei un/a fan dell'occulto e del paranormale? Hai qualche storia da condividere?
 Qual è il tuo più grande idolo?
 Ti piacciono i giochi di ruolo? Che personaggio giochi di solito? Oppure se non hai mai giocato che personaggio giocheresti?
 Qual è la tua più grande motivazione?
+Ti piace disegnare? Che disegni fai?
 Credi nei fantasmi?
 Qual è la tua personalità? Calmo, vivace, pazzo, eccentrico...?
 Ti sei mai interessato/a alla stregoneria?
@@ -43,6 +47,7 @@ Che tipo di cibo non proveresti mai?
 Qual è la città più interessante che hai visitato?
 Qual è la tua memoria più vivida di quando eri bambino?
 Quanto sei bravo/a a cucinare?
+Hai mai avuto un diario? (Non quello di scuola, ma quello per scrivere le memorie)
 Ti piace la poesia? Qual'è la poesia o il poeta che ti piace o ti ha colpito di più?
 Qual è la tua più grande sfida?
 Qual è la cosa che ti fa rosicare dalla rabbia?
@@ -88,6 +93,7 @@ Qual è la cosa più costosa che hai comprato?
 Qual è il tuo più grande insegnamento?
 Ti piace l'arte? Esite un quadro che potresti chiamare il tuo preferito?
 Qual è il tuo più grande rimpianto?
+Qual è il tuo energy drink preferito?
 Immagina di essere una persona creativa e avere ampie conoscenze su come creare giochi e simulazioni. Se potresti creare un gioco, che gioco sarebbe e di che cosa parlerebbe?
 Qual è il tuo più grande regalo?
 Quand’è stata l’ultima volta che hai cantato da sola/o? E davanti a qualcun altra/o?
@@ -112,6 +118,7 @@ Hai waifu o husbando? Chi è?
 Se fossi un fantasma, quale luogo occuperesti? Saresti un fantasma cattivo o un fantasma benigno? Daresti fastidio a qualcuno? Che faresti?
 Hai una pena di morte, il tuo giorno di esecuzione è domani. L'unica cosa su quale puoi decidere è il tuo ultimo pasto. Quale pasto scegli?
 Quale sarebbe un giorno perfetto per te?
+Piani per le vacanze?
 Ti piacerebbe essere famoso? In che ambito?
 Cosa faresti se avessi un milione di euro?
 Qual è la tua più grande fonte di ispirazione?
@@ -140,7 +147,7 @@ Se potessi svegliarti domani avendo acquisito una qualsiasi qualità o abilità,
 Bevanda alcolica preferita?
 Due padri e due figli sono in una stanza, però nella stanza ci sono solo tre persone. Come?
 Se dovessi ricoprire il ruolo del pubblico ufficiale, cosa servirebbe per corromperti?
-C'è una 
+Qual è il metodo che utilizzi per combattere il caldo?
 Qual è la tua arma da fuoco preferita? che vorresti imparare a padroneggiare? Se si, quale?
 Qual'è la caratteristica di te stesso/a che vorresti cambiare in qualcosa di diverso?
 Cosa ne pensi degli social? Sono utili secondo te o sono un vuoto inutile di affermazioni senza senso come disse Mercoledì?
@@ -152,6 +159,7 @@ Se una sfera di cristallo potesse dirti la verità su te stesso/a, sulla tua vit
 Ascolti musica? Che generi? Qual è la tua canzone preferita?
 Qual è la cosa più costosa che ti sei comprato? Qual è la cosa più costosa che hai regalato a qualcuno?
 Qual è il tuo cibo preferito?
+Che tipo di telefono usi? Ti piace? Ti dura tanto la carica?
 Qualcuno tradisce la tua fiducia. Come ti comporti?
 Quale secondo te sarebbe il tuo animale da compagnia perfetto?
 Viviamo in un mondo sempre più teconologico. La tecnologia secondo te è utile? Qual'è la tua invenzione teconologica preferita?
@@ -163,6 +171,7 @@ Come ti immagini il mondo fra 10 anni?
 Ti piace giocare? Quali sono i tuoi giochi preferiti? 
 Ognuno desidera qualcosa. Qual è il tuo più grande desiderio?
 Qual è il tuo modo preferito per rilassarti?
+Ti piacciono le torte? Che tipo di torta ti piace di più?
 Cosa hai fatto durante i primi mesi di lockdown dovuti alla pandemia? Ti sei divertito, annoiato?
 Se potessi assistere a qualsiasi evento del passato, presente o futuro, quale sarebbe?
 La ragione in termini semplici è l'arte di discernere il vero dal falso. A te piace ragionare?
@@ -178,6 +187,7 @@ Ti sei mai svegliato una mattina pentendoti di quel che hai fatto durante la not
 Come reagirebbe il tuo io di 10 anni a quello che fai ora?
 Quanti anni avevi quando avevi bevuto così tanto da ubriacarti per la prima volta nella tua vita? Com'era questa esperienza?
 Quanto era diversa la tua vita un anno fa?
+Se un giorno ti svegliassi come una persona di sesso opposto, come gestiresti la situazione?
 Qual è l'ultimo libro che hai letto?
 Che cosa ti ha insegnato la tua vita fino al giorno d'oggi?
 Qual è il tuo attore/attrice preferito/a e quale secondo te è stata la sua interpretazione che te lo ha fatto considerare tale?
@@ -194,6 +204,7 @@ Stai andando giù per la strada vestito come piace a te. Cosa vede la gente ment
 Cosa hai mangiato di recente?
 Sono le ore 04:00 di mattina in un parco pubblico. La tua serata era sfrenata, ma ora sei inseguito/a da un gorilla psicopatico pluriomicida che vuole farti tanto male. Qual'è il tuo piano per rispondere a questa minaccia?
 PEPSI o Coca-Cola?
+Credi nelle creature mitologiche o fantastiche? Troll, giganti, streghe, vampiri, lupi mannari?
 Se dovessi fare un film. Che film faresti?
 Se ti rimanesse un'ora di vita, come la passeresti?
 Quale lavoro saresti disposto/a a fare ogni giorno, con sacrificio, se sapessi che non c’è nessuno stipendio che ti aspetta a fine mese?
@@ -204,16 +215,18 @@ Cosa vorresti che la gente smettesse di chiederti?
 Hai conosciuto qualcuno di nuovo oggi?
 Preferiresti perdere l’olfatto o il gusto?
 In quale universo di gioco o cinematografico ti piacerebbe di più vivere?
+Secondo te, perchè la gente si lamenta in continuazione?
 Sei più una persona che sogna o che preferisce la concretezza e la praticità?
 Cosa pensi che succeda a una persona dopo la sua morte?
 Quale sarebbe la tua colazione perfetta?
-Ti piace il teatro?
+Ti piace il teatro? Hai mai pensato che vorresti recitare?
 Sei uno stacanovista o uno che prende il lavoro alla leggera?
 In un’apocalisse di zombie, quale sarebbe la tua arma preferita?
 Preferiresti perdere tutti i tuoi soldi e gli oggetti di valore o tutte le foto che hai scattato?
 Come sarebbe la camera da letto dei tuoi sogni?
 Se andassi in coma e ti svegliassi nell’anno 2077, quale sarebbe la prima cosa che vorresti sapere?
 Pensi che oltre al nostro pianeta c'è possibilità che la vita possa esistere altrove?
+Se avessi la possibilità di reincarnarti in un'altro essere. In che essere ti reincarneresti?
 Quali programmi televisivi guardavi quando eri bambino/a?
 Quanto tempo hai passato qui? E' stato un bel tempo per te?
 Hai sogni piacevoli o incubi? Che effetto ti danno gli incubi? Ne puoi racconatre uno?
@@ -221,7 +234,8 @@ Cosa ne pensi del fatto, che nei telegiornali e cronache si parli sempre di noti
 Il sistema solare è composto da 8 pianeti. Mercurio, Venere, Terra, Marte, Giove, Saturno, Urano, Nettuno. Quale pianeta è il tuo preferito?
 Ti piace il tuo compleanno?
 Preferisci la notte o il giorno?
-Conosci qualche 
+Verso quale ora vai a dormire e ti svegli di solito durante la settimana? Dormi di più il weekend?
+Qual è il tuo tipo di gelato preferito?
 Qual è la tua arma da fuoco preferita?ggio di programmazione? Se no, saresti interessato a impararne qualcuno? Se si, quale o cosa ci vorresti fare una volta imparato?
 Ti piace gossipare? 
 Quando eri bambino/a, quale lavoro volevi fare da grande?
@@ -229,7 +243,7 @@ Se dovessi creare un Azienda, che azienda sarebbe e di che cosa si occuperebbe?
 Quale caratteristica o caratteristiche cerchi nelle persone?
 Stai passando bene questi giorni?
 Sei una persona che si chiede spesso domande filosofiche?
-Sei un/a pirata? Yarr!
+Sei un/a pirata? Se no, ti piacerebbe esserlo? Yarr!
 Cosa ne pensi delle arti marziali? C'è un'arte marziale in particolare che ti attira per qualche motivo?
 Ogni anno migliaia di account su diversi servizi vengono compromessi a causa delle password semplici da indovinare. Secondo le statistiche, nel 2022 in Italia, le 5 password più comuni erano "123456", "123456789", "password", "ciao" e "juventus". Cosa ne pensi di tale fatto?
 Come descriveresti questo posto in una parola?
@@ -238,6 +252,7 @@ Qual è il tuo frutto preferito?
 Cosa deve essere rotto prima che tu possa utilizzarlo?
 Hai dei segreti o sei una persona aperta? Se hai dei segreti quanto è importante per te che nessuno li sappia?
 Come ti travestiresti a Halloween?
+Ti piace spruzzarti i profumi addosso? Che tipo di profumo è il tuo preferito?
 Qual è la tua fiaba preferita?
 Preferisci passare il tuo tempo a casa o fuori?
 Secondo te, nella tua vita, in quale momento sei ora? Che cosa ti fa piacere di più di questa cosa?
@@ -252,3 +267,11 @@ Qual è secondo te la professione che è migliore da fare in questi anni dal pun
 Credi che esista una entità onniscente o non onniscente che governa l'universo? Secondo te l'universo ha delle leggi o è governato dal puro caos?
 Qual è la tua arma da fuoco preferita?
 Ti piace ballare?
+C'è stato un personaggio di anime, film, libro, Serie TV con il quale ti sei identificato/a?
+Quali sono le tue chance secondo te di sopravvivere un'apocalisse di zombie?
+Qual è il tuo gioco da tavolo preferito?
+Qual è l'oggetto più inutile che hai in casa?
+Ti piace il tuo nome o preferiresti cambiarlo? Hai mai avuto voglia di cambiare identità?
+Che tipo di pasta ti piace di più e come ti piace che venga fatta?
+Cosa ne pensi di figli, vorresti mai averli? Se si, quanti?
+Qual'è il tuo colore di penna preferito?
