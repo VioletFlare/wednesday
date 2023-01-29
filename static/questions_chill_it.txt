@@ -102,6 +102,7 @@ Qual è il tuo gusto di gelato preferito?
 Qual è la tua materia preferita a scuola? O se non ci vai più, quale era?
 Quale canzone ti porta sempre sulla pista da ballo?
 Qual è il tuo giorno festivo preferito?
+Ti fa piacere quando qualcuno ti fa gli auguri di compleanno?
 Hai mai fatto un sogno strano? Cosa era successo in quel sogno?
 Quale è il mese che preferisci? Perché?
 Qual è la conversazione più strana che hai sentito?
@@ -115,6 +116,7 @@ Preferiresti essere in grado di controllare il fuoco o l’acqua?
 Hai mai vissuto un OOBE? Out Of Body Experience. E' una forma di esperienza dove sembra come se l'anima si separasse dal corpo e fosse libera di muoversi.
 Quale animale vorresti essere?
 Ti piace cantare?
+Preferisci dominare o essere dominato?
 Hai waifu o husbando? Chi è?
 Se fossi un fantasma, quale luogo occuperesti? Saresti un fantasma cattivo o un fantasma benigno? Daresti fastidio a qualcuno? Che faresti?
 Hai una pena di morte, il tuo giorno di esecuzione è domani. L'unica cosa su quale puoi decidere è il tuo ultimo pasto. Quale pasto scegli?
@@ -137,6 +139,7 @@ Riesci a ricordare i sogni che fai?
 Quando e come hai scoperto che Babbo Natale non esiste?
 Preferisci il mare o la montagna?
 Sei un professore in una scuola, ma non riesci a essere abbastanza autorevole. Tuoi alunni ogni giorno ti prendono in giro, cosa fai?
+Chi secondo te era lo scrittore, scienziato o inventore più rivoluzionario?
 Qual è il tuo più grande successo?
 Quanti anni avevi quando hai iniziato a lavorare?
 Che età vorresti avere in modo permanente?
@@ -154,6 +157,7 @@ Qual è la tua arma da fuoco preferita? che vorresti imparare a padroneggiare? S
 Qual'è la caratteristica di te stesso/a che vorresti cambiare in qualcosa di diverso?
 Cosa ne pensi degli social? Sono utili secondo te o sono un vuoto inutile di affermazioni senza senso come disse Mercoledì?
 Esiste un metodo per sconfiggere Nicola? 
+Hai mai scritto una poesia o un Haiku?
 Come affronti il fatto di prenderti del tempo libero dal lavoro?
 Ti dà fastidio se ti toccano i capelli?
 Qual è il miglior regalo che hai ricevuto?
@@ -180,6 +184,7 @@ Cosa hai fatto durante i primi mesi di lockdown dovuti alla pandemia? Ti sei div
 Se potessi assistere a qualsiasi evento del passato, presente o futuro, quale sarebbe?
 La ragione in termini semplici è l'arte di discernere il vero dal falso. A te piace ragionare?
 Qual è il tuo sport preferito?
+Se potessi essere una creatura mitologica o fantastica... che cosa saresti?
 Sei una persona che ha solo amici o hai mai avuto qualcuno che potresti chiamare il tuo nemico?
 Hai mai fatto qualche rinuncia? Qual è il tuo più grande sacrificio?
 E' il tuo compleanno! Beh, immagina che lo è e presto lo sarà. Che regalo ti piacerebbe ottenere?
@@ -218,6 +223,7 @@ Cosa diresti a te stesso/a più giovane se potessi tornare indietro nel tempo?
 Cosa vorresti che la gente smettesse di chiederti?
 Hai conosciuto qualcuno di nuovo oggi?
 Preferiresti perdere l’olfatto o il gusto?
+Qual'è la tua pianta preferita?
 In quale universo di gioco o cinematografico ti piacerebbe di più vivere?
 Secondo te, perchè la gente si lamenta in continuazione?
 Sei più una persona che sogna o che preferisce la concretezza e la praticità?
@@ -254,11 +260,13 @@ Come descriveresti questo posto in una parola?
 Ti ricordi cosa hai sognato oggi?
 Quando vuoi informarti sulle notizie, a quali mezzi ricorri? TV, Giornali, Internet?
 Qual è il tuo frutto preferito?
+Qual è il sito web che visiti di più? E' il tuo preferito?
 Cosa deve essere rotto prima che tu possa utilizzarlo?
 Hai dei segreti o sei una persona aperta? Se hai dei segreti quanto è importante per te che nessuno li sappia?
 Come ti travestiresti a Halloween?
 Ti piace spruzzarti i profumi addosso? Che tipo di profumo è il tuo preferito?
 Qual è la tua fiaba preferita?
+Qual è il tuo periodo storico preferito?
 Preferisci passare il tuo tempo a casa o fuori?
 Secondo te, nella tua vita, in quale momento sei ora? Che cosa ti fa piacere di più di questa cosa?
 Sei pieno di vita ed energico o stufato degli ardori della vita?
@@ -280,3 +288,5 @@ Ti piace il tuo nome o preferiresti cambiarlo? Hai mai avuto voglia di cambiare 
 Che tipo di pasta ti piace di più e come ti piace che venga fatta?
 Cosa ne pensi di figli, vorresti mai averli? Se si, quanti?
 Qual'è il tuo colore di penna preferito?
+Stai giocando a The Sims. Che tipo di famiglia fai?
+Esiste un detto che dice: Si chiude una porta, si apre un portone. Secondo te cosa significa? Sei d'accordo con questo detto?
