@@ -40,7 +40,6 @@ class Questions {
 
     init() {
         this._setQOTDMessage();
-        this._sendQOTDMessage();
     }
 }
 
