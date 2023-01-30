@@ -1,5 +1,5 @@
-const CronJob = require('cron').CronJob;
-const GoodnightEmbed = require('./Embeds/GoodnightEmbed');
+const Goodnight = require('./Services/Goodnight.js');
+const Questions = require('./Services/Questions.js');
 
 class Instance {
 
@@ -8,35 +8,17 @@ class Instance {
         this.config = {
             channels: [
                 "┋💬・chat",
-                "nose-boop"
+                //"nose-boop"
             ]
         }
     }
 
     init() {
         this._setup();
-        this._setEvents();
+        this._startServices();
     }
 
-    _setGoodnightMessage() {
-        new CronJob(
-            '0 0 23 * * *',
-            () => this._sendGoodnightEmbed(),
-            null,
-            true,
-            'Europe/Rome'
-        );
-    }
 
-    _sendGoodnightEmbed() {
-        const model = {
-            channel: this.channel
-        }
-
-        if (this.channel) {
-            GoodnightEmbed.send(model);
-        }
-    }
 
     _isAllowedChannel(channelname) {
         let isAllowedChannel = false;
@@ -61,8 +43,9 @@ class Instance {
         );
     }
 
-    _setEvents() {
-        this._setGoodnightMessage();
+    _startServices() {
+        new Goodnight(this.channel).init();
+        new Questions(this.channel).init();
     }
 
     onMessageCreate(msg) {
