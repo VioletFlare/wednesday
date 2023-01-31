@@ -1,3 +1,4 @@
+const IntegrityCheck = require('./Services/IntegrityCheck.js');
 const Goodnight = require('./Services/Goodnight.js');
 const Questions = require('./Services/Questions.js');
 
@@ -44,6 +45,7 @@ class Instance {
     }
 
     _startServices() {
+        new IntegrityCheck().init();
         new Goodnight(this.channel).init();
         new Questions(this.channel).init();
     }
