@@ -18,7 +18,7 @@ class IntegrityCheck {
             
             if (keys.length) {
                 const key = keys[0];
-                const questions = QUESTIONS[i][key]
+                const questions = QUESTIONS[i][key];
 
                 if (questions.length !== 366) {
                     throw new Error(`!INTEG_CHECK! FILE: ${key}: QUESTION COUNT: ${questions.length}; QUESTION NUMBER MUST BE EQUAL TO 366. `)
