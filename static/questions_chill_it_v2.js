@@ -556,7 +556,7 @@ const QUESTIONS_CHILL_IT_V2 = [
     },
     { question: "Cosa vorresti che la gente smettesse di chiederti?" },
     { question: "Hai conosciuto qualcuno di nuovo oggi?" },
-    { question: "Preferiresti perdere l’olfatto o il gusto?" },
+    { question: "Conosci qualche linguaggio di programmazione? Se no, saresti interessato a impararne qualcuno? Se si, quale o cosa ci vorresti fare una volta imparato?" },
     { question: "Qual è la tua pianta preferita?" },
     {
       question:
@@ -627,7 +627,7 @@ const QUESTIONS_CHILL_IT_V2 = [
     { question: "Qual è il tuo tipo di gelato preferito?" },
     {
       question:
-        "Qual è la tua arma da fuoco preferita?ggio di programmazione? Se no, saresti interessato a impararne qualcuno? Se si, quale o cosa ci vorresti fare una volta imparato?",
+        "Qual è la tua arma da fuoco preferita?",
     },
     { question: "Ti piace gossipare?" },
     { question: "Sei una persona che vorrebbe sposarsi o preferiresti di no?" },
