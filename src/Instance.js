@@ -8,8 +8,14 @@ class Instance {
         this.guild = guild;
         this.config = {
             channels: [
-                "┋💬・chat",
-                //"nose-boop"
+                {
+                    name: "┋💬・chat",
+                    services: ['goodnight', 'questions']
+                },
+                {
+                    name: "nose-boop",
+                    services: ['questions']
+                }
             ]
         }
     }
@@ -19,13 +25,11 @@ class Instance {
         this._startServices();
     }
 
-
-
     _isAllowedChannel(channelname) {
         let isAllowedChannel = false;
 
         this.config.channels.forEach((channel) => {
-            if (channelname.includes(channel)) {
+            if (channelname.includes(channel.name)) {
                 isAllowedChannel = true;
             }
         })
@@ -46,8 +50,8 @@ class Instance {
 
     _startServices() {
         new IntegrityCheck().init();
-        new Goodnight(this.channel).init();
-        new Questions(this.channel).init();
+        new Goodnight(this.config, this.channel).init();
+        new Questions(this.config, this.channel).init();
     }
 
     onMessageCreate(msg) {

@@ -1,9 +1,11 @@
 const CronJob = require('cron').CronJob;
 const GoodnightEmbed = require('../Embeds/GoodnightEmbed');
+const ServiceUtility = require('../Modules/ServiceUtility');
 
 class Goodnight {
 
-    constructor(channel) {
+    constructor(config, channel) {
+        this.config = config;
         this.channel = channel;
     }
 
@@ -22,7 +24,9 @@ class Goodnight {
             channel: this.channel
         }
 
-        if (this.channel) {
+        const hasService = ServiceUtility.hasService(this.config, this.channel, 'goodnight');
+
+        if (hasService) {
             GoodnightEmbed.send(model);
         }
     }

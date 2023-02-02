@@ -1,9 +1,11 @@
 const CronJob = require('cron').CronJob;
 const QOTDMessage = require('../Messages/QOTDMessage');
+const ServiceUtility = require('../Modules/ServiceUtility');
 
 class Questions {
 
-    constructor(channel) {
+    constructor(config, channel) {
+        this.config = config;
         this.channel = channel;
     }
 
@@ -13,7 +15,9 @@ class Questions {
             day: this._getDayOfYear()
         }
 
-        if (this.channel) {
+        const hasService = ServiceUtility.hasService(this.config, this.channel, 'questions');
+
+        if (hasService) {
             QOTDMessage.send(model);
         }
     }
