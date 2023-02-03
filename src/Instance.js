@@ -1,6 +1,7 @@
 const IntegrityCheck = require('./Services/IntegrityCheck.js');
 const Goodnight = require('./Services/Goodnight.js');
 const Questions = require('./Services/Questions.js');
+const AnswerCollector = require('./Services/AnswerCollector.js');
 
 class Instance {
 
@@ -52,10 +53,13 @@ class Instance {
         new IntegrityCheck().init();
         new Goodnight(this.config, this.channel).init();
         new Questions(this.config, this.channel).init();
+
+        this.answerCollector = new AnswerCollector(this.channel);
+        this.answerCollector.init()
     }
 
     onMessageCreate(msg) {
-        ///
+        this.answerCollector.onMessageCreate(msg);
     }
 }
 
