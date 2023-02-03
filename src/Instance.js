@@ -13,7 +13,7 @@ class Instance {
                     services: ['goodnight', 'questions']
                 },
                 {
-                    name: "nose-boop",
+                    name: "❤-nose-boop",
                     services: ['questions']
                 }
             ]
