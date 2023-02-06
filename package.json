@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "cron": "^2.0.0",
-    "discord.js": "^13.8.0"
+    "discord.js": "^13.12.0"
   }
 }
