@@ -5,8 +5,9 @@ const AnswerCollector = require('./Services/AnswerCollector.js');
 
 class Instance {
 
-    constructor(guild) {
+    constructor(guild, DAL) {
         this.guild = guild;
+        this.DAL = DAL;
         this.config = {
             channels: [
                 {
@@ -22,6 +23,7 @@ class Instance {
     }
 
     init() {
+        this.DAL.insertGuild(this.guild.id, this.guild.name);
         this._setup();
         this._startServices();
     }

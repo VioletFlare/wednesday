@@ -1,6 +1,7 @@
 const Instance = require('./Instance.js');
 const config = require('../config.js');
 const Discord = require("discord.js");
+const DAL = require("./DAL/DataLayer.js");
 
 class InstanceManager {
     
@@ -26,7 +27,7 @@ class InstanceManager {
     _initSessions() {
         if (!this.sessions.size) {
             for (const [guildId, guild] of this.client.guilds.cache.entries()) {
-                const instance = new Instance(guild);
+                const instance = new Instance(guild, DAL);
                 instance.init();
                 this.sessions.set(guildId, instance);
             }
@@ -34,7 +35,7 @@ class InstanceManager {
     }
 
     _initSession(guild) {
-        const instance = new Instance(guild);
+        const instance = new Instance(guild, DAL);
         instance.init();
         this.sessions.set(guild.id, instance);
     }
