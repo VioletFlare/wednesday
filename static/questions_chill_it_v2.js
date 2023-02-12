@@ -2,7 +2,7 @@ const QUESTIONS_CHILL_IT_V2 = [
     {
       question: "Qual è la cosa che ti ha più entusiasmato nell’ultimo periodo?",
     },
-    { question: "Qual è la tua emoji preferita?" },
+    { question: "Ti aspetti di trovare qualcosa in particolare quando entri su un server Discord? Quali sono le cosa fondamentali che dovrebbero esserci?" },
     {
       question:
         "Ti piace stringere nuove amicizie ed essere aperto? Diresti di essere più estroverso o introverso?",
