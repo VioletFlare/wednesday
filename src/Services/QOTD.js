@@ -23,9 +23,10 @@ class QOTD {
     }
 
     _startQOTDServices() {
-        new Questions(this.config, this.channel, this.storage, this.guild, this.DAL).init();
-
-        this.answerCollector = new AnswerCollector(this.channel, this.storage);
+        this.questions = new Questions(this.config, this.channel, this.storage, this.guild, this.DAL);
+        this.answerCollector = new AnswerCollector(this.channel, this.storage, this.guild, this.DAL);
+        
+        this.questions.init();
         this.answerCollector.init();
     }
 

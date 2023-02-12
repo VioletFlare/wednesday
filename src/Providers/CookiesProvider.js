@@ -15,9 +15,9 @@ class CookiesProvider {
                 newCookiesAmount = value;
             }
 
-            const user = this.guild.members.fetch(userId);
-            
-            this.DAL.Cookies.insertCookies(guildId, newCookiesAmount, userId, user.username);
+            this.guild.members.fetch(userId).then(user => {
+                this.DAL.Cookies.insertCookies(guildId, newCookiesAmount, userId, user.user.username);
+            });
         });
     }
 
