@@ -13,9 +13,9 @@ class Questions {
                 INSERT INTO wednesday_qotd
                     (content, guild_id, message_id)
                 VALUES
-                    (${content}, ${guildId}, ${messageId})
+                    (${escapedContent}, ${guildId}, ${messageId})
                 ON DUPLICATE KEY UPDATE
-                    content = ${escapedContent}, guild_id = ${guildId}, messageId = ${messageId};
+                    content = ${escapedContent}, guild_id = ${guildId}, message_id = ${messageId};
             `;
 
             connection.query(insertQuestion, (error, results, fields) => {
@@ -25,13 +25,13 @@ class Questions {
         });
     }
 
-    getQuestion(guildId, messageId) {
+    getQuestion(guildId) {
         return new Promise(
             (resolve, reject) => {
                 this.DB.getConnection((err, connection) => {
                     const getQuestion =  `
                             SELECT * FROM wednesday_qotd
-                            WHERE guild_id = ${guildId} AND message_id = ${messageId};
+                            WHERE guild_id = ${guildId};
                         `;
 
                     connection.query(getQuestion, (error, results, fields) => {

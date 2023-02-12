@@ -25,7 +25,7 @@ CREATE TABLE `wednesday_qotd` (
   `content` mediumtext NOT NULL,
   `guild_id` varchar(32) NOT NULL,
   `message_id` varchar(32) NOT NULL,
-  PRIMARY KEY (`message_id`,`guild_id`),
+  PRIMARY KEY (`guild_id`),
   KEY `guild_id` (`guild_id`),
   CONSTRAINT `wednesday_messages_ibfk_1` FOREIGN KEY (`guild_id`) REFERENCES `wednesday_guilds` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

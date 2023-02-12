@@ -27,8 +27,9 @@
 
 class AnswerCollector {
 
-    constructor(channel) {
+    constructor(channel, storage) {
         this.channel = channel;
+        this.storage = storage;
     }
 
     init() {
@@ -38,7 +39,7 @@ class AnswerCollector {
     onMessageCreate(msg) {
         if (msg.reference) {
             this.channel.messages.fetch(msg.reference.messageId).then(repliedTo => {
-                const isReplyingToQOTD = repliedTo.content.toLowerCase().includes("---[ domanda del giorno ]---");
+                const isReplyingToQOTD = msg.reference.messageId === this.storage.questions.QOTDMessageId;
 
                 if (isReplyingToQOTD) {
                     msg.react('🍪');

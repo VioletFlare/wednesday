@@ -24,6 +24,8 @@ class Questions {
         if (hasService) {
             QOTDMessage.send(model).then(sentMessage => {
                 this.QuestionsProvider.insertQuestion(this.guild.id, sentMessage.id, sentMessage.content);
+
+                this.storage.questions.QOTDMessageId = sentMessage.id;
             });
         }
     }
@@ -50,7 +52,6 @@ class Questions {
 
     init() {
         this._setQOTDMessage();
-        this._sendQOTDMessage();
 
         this.QuestionsProvider = new QuestionsProvider(this.DAL);
     }
