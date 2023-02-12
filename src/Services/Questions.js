@@ -1,6 +1,7 @@
 const CronJob = require('cron').CronJob;
 const QOTDMessage = require('../Messages/QOTDMessage');
 const ServiceUtility = require('../Modules/ServiceUtility');
+const CookiesProvider = require('../Providers/CookiesProvider');
 
 class Questions {
 

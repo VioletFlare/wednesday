@@ -1,10 +1,11 @@
 const DB = require('./DB.js');
 const mysql = require('mysql2');
+const Cookies = require('./CookiesDAL.js');
 
 class DataLayer {
 
     constructor() {
-
+        this.Cookies = new Cookies(DB);
     }
 
     insertGuild(guildId, name) {
@@ -20,7 +21,7 @@ class DataLayer {
                     (${guildId}, ${escapedName})
                ON DUPLICATE KEY UPDATE
                     name = ${escapedName};
-            `
+            `;
 
             connection.query(query, (error, results, fields) => {
                 connection.release();
