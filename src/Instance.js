@@ -1,7 +1,6 @@
 const IntegrityCheck = require('./Services/IntegrityCheck.js');
 const Goodnight = require('./Services/Goodnight.js');
-const Questions = require('./Services/Questions.js');
-const AnswerCollector = require('./Services/AnswerCollector.js');
+const QOTD = require('./Services/QOTD.js');
 
 class Instance {
 
@@ -19,7 +18,7 @@ class Instance {
                     services: ['questions']
                 }
             ]
-        }
+        };
     }
 
     init() {
@@ -35,7 +34,7 @@ class Instance {
             if (channelname.includes(channel.name)) {
                 isAllowedChannel = true;
             }
-        })
+        });
 
         return isAllowedChannel;
     }
@@ -44,7 +43,7 @@ class Instance {
         this.channel = this.guild.channels.cache.find(
             channel => {
                 const isAllowedChannel = this._isAllowedChannel(channel.name);
-                const isCorrectChannel = isAllowedChannel && channel.type === "GUILD_TEXT"
+                const isCorrectChannel = isAllowedChannel && channel.type === "GUILD_TEXT";
 
                 return isCorrectChannel;
             }
@@ -54,14 +53,13 @@ class Instance {
     _startServices() {
         new IntegrityCheck().init();
         new Goodnight(this.config, this.channel).init();
-        new Questions(this.config, this.channel).init();
 
-        this.answerCollector = new AnswerCollector(this.channel);
-        this.answerCollector.init()
+        this.qotd = new QOTD(this.config, this.channel, this.guild, this.DAL);
+        this.qotd.init();
     }
 
     onMessageCreate(msg) {
-        this.answerCollector.onMessageCreate(msg);
+        this.qotd.onMessageCreate(msg);
     }
 }
 

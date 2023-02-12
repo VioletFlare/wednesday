@@ -20,7 +20,7 @@ class InstanceManager {
         const instance = this.sessions.get(guildId);
 
         if (instance) {
-            instance.onMessageCreate(msg)
+            instance.onMessageCreate(msg);
         }
     }
 

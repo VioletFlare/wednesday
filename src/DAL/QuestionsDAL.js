@@ -1,41 +1,40 @@
 const mysql = require('mysql2');
 
-class Cookies {
-
+class Questions {
     constructor(DB) {
         this.DB = DB;
     }
 
-    insertCookies(guildId, cookies, userId, username) {
+    insertQuestion(guildId, messageId, content) {
         this.DB.getConnection((err, connection) => {
-            const escapedUsername =  mysql.escape(username);
+            const escapedContent =  mysql.escape(content);
 
-            const insertCookies = `
-                INSERT INTO wednesday_cookies
-                    (username, cookies, guild_id, user_id)
+            const insertQuestion = `
+                INSERT INTO wednesday_qotd
+                    (content, guild_id, message_id)
                 VALUES
-                    (${escapedUsername}, ${cookies}, ${guildId}, ${userId})
+                    (${content}, ${guildId}, ${messageId})
                 ON DUPLICATE KEY UPDATE
-                    username = ${escapedUsername}, cookies = ${cookies};
+                    content = ${escapedContent}, guild_id = ${guildId}, messageId = ${messageId};
             `;
 
-            connection.query(insertCookies, (error, results, fields) => {
+            connection.query(insertQuestion, (error, results, fields) => {
                 if (error) throw error;
                 connection.release();
             });
         });
     }
 
-    getCookies(guildId, userId) {
+    getQuestion(guildId, messageId) {
         return new Promise(
             (resolve, reject) => {
                 this.DB.getConnection((err, connection) => {
-                    const getCookies =  `
-                            SELECT * FROM wednesday_cookies
-                            WHERE guild_id = ${guildId} AND user_id = ${userId};
+                    const getQuestion =  `
+                            SELECT * FROM wednesday_qotd
+                            WHERE guild_id = ${guildId} AND message_id = ${messageId};
                         `;
 
-                    connection.query(getCookies, (error, results, fields) => {
+                    connection.query(getQuestion, (error, results, fields) => {
                         if (error) throw error;
                         connection.release();
 
@@ -50,7 +49,6 @@ class Cookies {
             }
         );
     }
-
 }
 
-module.exports = Cookies;
+module.exports = Questions;

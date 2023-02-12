@@ -1,11 +1,13 @@
 const DB = require('./DB.js');
 const mysql = require('mysql2');
 const Cookies = require('./CookiesDAL.js');
+const Questions = require('./QuestionsDAL');
 
 class DataLayer {
 
     constructor() {
         this.Cookies = new Cookies(DB);
+        this.Questions = new Questions(DB);
     }
 
     insertGuild(guildId, name) {
