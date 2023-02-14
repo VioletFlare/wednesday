@@ -2,6 +2,7 @@ const Instance = require('./Instance.js');
 const config = require('../config.js');
 const Discord = require("discord.js");
 const DAL = require("./DAL/DataLayer.js");
+const CommandsInitializer = require('./CommandsInitializer');
 
 class InstanceManager {
     
@@ -13,6 +14,7 @@ class InstanceManager {
         });
 
         this.sessions = new Map();
+        this.CommandsInitializer = new CommandsInitializer(this.client);
     }
 
     _onMessageCreate(msg) {
@@ -56,6 +58,10 @@ class InstanceManager {
         );
     }
 
+    _setup() {
+        this.CommandsInitializer.init();
+    }
+
     init() {
         if (this.isDev) {
             this.client.login(config.TOKEN_DEV);
@@ -63,6 +69,7 @@ class InstanceManager {
             this.client.login(config.TOKEN_PROD);
         }
 
+        this._setup();
         this._setEvents();
     }
 

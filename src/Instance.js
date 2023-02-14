@@ -58,6 +58,10 @@ class Instance {
         this.qotd.init();
     }
 
+    onInteractionCreate(interaction) {
+        console.log(interaction);
+    }
+
     onMessageCreate(msg) {
         this.qotd.onMessageCreate(msg);
     }
