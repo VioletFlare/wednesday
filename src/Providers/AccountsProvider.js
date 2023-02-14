@@ -1,4 +1,4 @@
-class CookiesProvider {
+class AccountsProvider {
 
     constructor(guild, DAL) {
         this.DAL = DAL;
@@ -6,7 +6,7 @@ class CookiesProvider {
     }
 
     incrementCookies(guildId, userId, value) {
-        this.DAL.Cookies.getCookies(guildId, userId).then((cookies) => {
+        this.DAL.Accounts.getCookies(guildId, userId).then((cookies) => {
             let newCookiesAmount;
 
             if (cookies) {
@@ -16,11 +16,11 @@ class CookiesProvider {
             }
 
             this.guild.members.fetch(userId).then(user => {
-                this.DAL.Cookies.insertCookies(guildId, newCookiesAmount, userId, user.user.username);
+                this.DAL.Accounts.insertCookies(guildId, newCookiesAmount, userId, user.user.username);
             });
         });
     }
 
 }
 
-module.exports = CookiesProvider;
+module.exports = AccountsProvider;

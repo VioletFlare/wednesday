@@ -1,12 +1,12 @@
 const DB = require('./DB.js');
 const mysql = require('mysql2');
-const Cookies = require('./CookiesDAL.js');
+const Accounts = require('./AccountsDAL.js');
 const Questions = require('./QuestionsDAL');
 
 class DataLayer {
 
     constructor() {
-        this.Cookies = new Cookies(DB);
+        this.Accounts = new Accounts(DB);
         this.Questions = new Questions(DB);
     }
 

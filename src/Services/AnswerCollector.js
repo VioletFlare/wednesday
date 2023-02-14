@@ -25,7 +25,7 @@
                        02/02/2023
 */
 
-const CookiesProvider = require('../Providers/CookiesProvider');
+const AccountsProvider = require('../Providers/AccountsProvider');
 
 class AnswerCollector {
 
@@ -37,7 +37,7 @@ class AnswerCollector {
     }
 
     init() {
-        this.CookiesProvider = new CookiesProvider(this.guild, this.DAL);
+        this.AccountsProvider = new AccountsProvider(this.guild, this.DAL);
     }
 
     onMessageCreate(msg) {
@@ -47,7 +47,7 @@ class AnswerCollector {
 
                 if (isReplyingToQOTD) {
                     msg.react('🍪');
-                    this.CookiesProvider.incrementCookies(this.guild.id, msg.author.id, 1);
+                    this.AccountsProvider.incrementCookies(this.guild.id, msg.author.id, 1);
                 }
             });
         }

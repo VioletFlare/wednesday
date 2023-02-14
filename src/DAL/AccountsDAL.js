@@ -1,6 +1,6 @@
 const mysql = require('mysql2');
 
-class Cookies {
+class Accounts {
 
     constructor(DB) {
         this.DB = DB;
@@ -11,7 +11,7 @@ class Cookies {
             const escapedUsername =  mysql.escape(username);
 
             const insertCookies = `
-                INSERT INTO wednesday_cookies
+                INSERT INTO wednesday_accounts
                     (username, cookies, guild_id, user_id)
                 VALUES
                     (${escapedUsername}, ${cookies}, ${guildId}, ${userId})
@@ -31,7 +31,7 @@ class Cookies {
             (resolve, reject) => {
                 this.DB.getConnection((err, connection) => {
                     const getCookies =  `
-                            SELECT * FROM wednesday_cookies
+                            SELECT * FROM wednesday_accounts
                             WHERE guild_id = ${guildId} AND user_id = ${userId};
                         `;
 
@@ -53,4 +53,4 @@ class Cookies {
 
 }
 
-module.exports = Cookies;
+module.exports = Accounts;
