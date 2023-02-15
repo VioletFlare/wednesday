@@ -14,7 +14,7 @@ class InstanceManager {
         });
 
         this.sessions = new Map();
-        this.CommandsInitializer = new CommandsInitializer(this.client);
+        this.CommandsInitializer = new CommandsInitializer(config, this.client, this.isDev);
     }
 
     _onMessageCreate(msg) {
@@ -31,6 +31,7 @@ class InstanceManager {
             for (const [guildId, guild] of this.client.guilds.cache.entries()) {
                 const instance = new Instance(guild, DAL);
                 instance.init();
+                this.CommandsInitializer.registerCommands(guildId);
                 this.sessions.set(guildId, instance);
             }
         }
@@ -39,6 +40,7 @@ class InstanceManager {
     _initSession(guild) {
         const instance = new Instance(guild, DAL);
         instance.init();
+        this.CommandsInitializer.registerCommands(guild.id);
         this.sessions.set(guild.id, instance);
     }
 
