@@ -58,8 +58,26 @@ class Instance {
         this.qotd.init();
     }
 
+    _handleChatInputCommand(interaction) {
+        const command = interaction.client.commands.get(interaction.commandName);
+    
+        if (!command) {
+            console.error(`No command matching ${interaction.commandName} was found.`);
+            return;
+        }
+    
+        try {
+            command.execute(interaction);
+        } catch (error) {
+            console.error(`Error executing ${interaction.commandName}`);
+            console.error(error);
+        }
+    }
+
     onInteractionCreate(interaction) {
-        console.log(interaction);
+        if (interaction.type === "APPLICATION_COMMAND") {
+            this._handleChatInputCommand(interaction);
+        }
     }
 
     onMessageCreate(msg) {

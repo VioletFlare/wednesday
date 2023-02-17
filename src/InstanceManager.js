@@ -44,6 +44,15 @@ class InstanceManager {
         this.sessions.set(guild.id, instance);
     }
 
+    _onInteractionCreate(interaction) {
+        const guildId = interaction.guildId;
+        const instance = this.sessions.get(guildId);
+
+        if (instance) {
+            instance.onInteractionCreate(interaction);
+        }
+    }
+
     _setEvents() {
         this.client.on("ready", () => {
             console.log(`Logged in as ${this.client.user.tag}, id ${this.client.user.id}!`);
@@ -57,6 +66,10 @@ class InstanceManager {
 
         this.client.on(
             "guildCreate", guild => this._initSession(guild)
+        );
+
+        this.client.on(
+            'interactionCreate', interaction => this._onInteractionCreate(interaction)
         );
     }
 
