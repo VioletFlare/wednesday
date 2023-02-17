@@ -1,6 +1,8 @@
 const Instance = require('./Instance.js');
 const config = require('../config.js');
 const Discord = require("discord.js");
+const DAL = require("./DAL/DataLayer.js");
+const CommandsInitializer = require('./CommandsInitializer');
 
 class InstanceManager {
     
@@ -12,6 +14,7 @@ class InstanceManager {
         });
 
         this.sessions = new Map();
+        this.CommandsInitializer = new CommandsInitializer(config, this.client, this.isDev);
     }
 
     _onMessageCreate(msg) {
@@ -19,24 +22,35 @@ class InstanceManager {
         const instance = this.sessions.get(guildId);
 
         if (instance) {
-            instance.onMessageCreate(msg)
+            instance.onMessageCreate(msg);
         }
     }
 
     _initSessions() {
         if (!this.sessions.size) {
             for (const [guildId, guild] of this.client.guilds.cache.entries()) {
-                const instance = new Instance(guild);
+                const instance = new Instance(guild, DAL);
                 instance.init();
+                this.CommandsInitializer.registerCommands(guildId);
                 this.sessions.set(guildId, instance);
             }
         }
     }
 
     _initSession(guild) {
-        const instance = new Instance(guild);
+        const instance = new Instance(guild, DAL);
         instance.init();
+        this.CommandsInitializer.registerCommands(guild.id);
         this.sessions.set(guild.id, instance);
+    }
+
+    _onInteractionCreate(interaction) {
+        const guildId = interaction.guildId;
+        const instance = this.sessions.get(guildId);
+
+        if (instance) {
+            instance.onInteractionCreate(interaction);
+        }
     }
 
     _setEvents() {
@@ -53,6 +67,14 @@ class InstanceManager {
         this.client.on(
             "guildCreate", guild => this._initSession(guild)
         );
+
+        this.client.on(
+            'interactionCreate', interaction => this._onInteractionCreate(interaction)
+        );
+    }
+
+    _setup() {
+        this.CommandsInitializer.init();
     }
 
     init() {
@@ -62,6 +84,7 @@ class InstanceManager {
             this.client.login(config.TOKEN_PROD);
         }
 
+        this._setup();
         this._setEvents();
     }
 

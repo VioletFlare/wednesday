@@ -8,11 +8,11 @@ class GoodnightEmbed {
             .setImage("https://i.imgur.com/88bggyJ.png")
             .addFields(
                 { name: '---', value: '\`Buonanotte ❤️\`', inline: true }
-            )
+            );
 
         const embedContainer = { 
             embeds: [embed],
-        }
+        };
 
         model.channel.send(embedContainer).catch(
             error => console.error(error)

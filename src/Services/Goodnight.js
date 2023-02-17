@@ -22,7 +22,7 @@ class Goodnight {
     _sendGoodnightEmbed() {
         const model = {
             channel: this.channel
-        }
+        };
 
         const hasService = ServiceUtility.hasService(this.config, this.channel, 'goodnight');
 

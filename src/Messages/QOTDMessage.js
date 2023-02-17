@@ -12,11 +12,13 @@ class QOTDMessage {
 **---[ Domanda Del Giorno ]---**
 
 ${question}
-        `
+        `;
 
-        model.channel.send(message).catch(
+        const sentMessage = model.channel.send(message).catch(
             error => console.error(error)
         );
+
+        return sentMessage;
     }
 
 }

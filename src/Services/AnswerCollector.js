@@ -25,23 +25,29 @@
                        02/02/2023
 */
 
+const AccountsProvider = require('../Providers/AccountsProvider');
+
 class AnswerCollector {
 
-    constructor(channel) {
+    constructor(channel, storage, guild, DAL) {
         this.channel = channel;
+        this.storage = storage;
+        this.guild = guild;
+        this.DAL = DAL;
     }
 
     init() {
-
+        this.AccountsProvider = new AccountsProvider(this.guild, this.DAL);
     }
 
     onMessageCreate(msg) {
         if (msg.reference) {
             this.channel.messages.fetch(msg.reference.messageId).then(repliedTo => {
-                const isReplyingToQOTD = repliedTo.content.toLowerCase().includes("---[ domanda del giorno ]---");
+                const isReplyingToQOTD = msg.reference.messageId === this.storage.questions.QOTDMessageId;
 
                 if (isReplyingToQOTD) {
                     msg.react('🍪');
+                    this.AccountsProvider.incrementCookies(this.guild.id, msg.author.id, 1);
                 }
             });
         }

@@ -1,0 +1,31 @@
+-- `rank`.wednesday_guilds definition
+
+CREATE TABLE `wednesday_guilds` (
+  `id` varchar(32) NOT NULL,
+  `name` varchar(128) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+-- `rank`.wednesday_accounts definition
+
+CREATE TABLE `wednesday_accounts` (
+  `username` varchar(32) DEFAULT NULL,
+  `cookies` int(11) DEFAULT NULL,
+  `guild_id` varchar(32) NOT NULL,
+  `user_id` varchar(32) NOT NULL,
+  PRIMARY KEY (`user_id`,`guild_id`),
+  KEY `guild_id` (`guild_id`),
+  CONSTRAINT `wednesday_accounts_ibfk_1` FOREIGN KEY (`guild_id`) REFERENCES `wednesday_guilds` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- `rank`.wednesday_qotd definition
+
+CREATE TABLE `wednesday_qotd` (
+  `content` mediumtext NOT NULL,
+  `guild_id` varchar(32) NOT NULL,
+  `message_id` varchar(32) NOT NULL,
+  PRIMARY KEY (`guild_id`),
+  KEY `guild_id` (`guild_id`),
+  CONSTRAINT `wednesday_messages_ibfk_1` FOREIGN KEY (`guild_id`) REFERENCES `wednesday_guilds` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

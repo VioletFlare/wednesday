@@ -1,24 +1,32 @@
 const CronJob = require('cron').CronJob;
 const QOTDMessage = require('../Messages/QOTDMessage');
 const ServiceUtility = require('../Modules/ServiceUtility');
+const QuestionsProvider = require('../Providers/QuestionsProvider');
 
 class Questions {
 
-    constructor(config, channel) {
+    constructor(config, channel, storage, guild, DAL) {
         this.config = config;
         this.channel = channel;
+        this.storage = storage;
+        this.guild = guild;
+        this.DAL = DAL;
     }
 
     _sendQOTDMessage() {
         const model = {
             channel: this.channel,
             day: this._getDayOfYear()
-        }
+        };
 
         const hasService = ServiceUtility.hasService(this.config, this.channel, 'questions');
 
         if (hasService) {
-            QOTDMessage.send(model);
+            QOTDMessage.send(model).then(sentMessage => {
+                this.QuestionsProvider.insertQuestion(this.guild.id, sentMessage.id, sentMessage.content);
+
+                this.storage.questions.QOTDMessageId = sentMessage.id;
+            });
         }
     }
 
@@ -44,6 +52,8 @@ class Questions {
 
     init() {
         this._setQOTDMessage();
+
+        this.QuestionsProvider = new QuestionsProvider(this.DAL);
     }
 }
 
