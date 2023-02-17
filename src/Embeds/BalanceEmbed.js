@@ -1,27 +1,32 @@
+const Discord = require("discord.js");
+
 class BalanceEmbed {
 
     send(model) {
+        const userMention = `<@${model.interaction.user.id}>`;
+        let userAvatarURL = `https://cdn.discordapp.com/avatars/${model.interaction.user.id}/${model.interaction.user.avatar}.webp?size=256`;
+
+        const cookies = String(model.cookies) + " 🍪";
+
         const embed = new Discord.MessageEmbed()
-        .setColor('#DAA520')
-        .setTitle("👑 Leader Board                 ")
-        .setDescription("test")
-        .setThumbnail('https://i.imgur.com/v5RR3ro.png')
-        .setFooter({ text: "footer", iconURL: "" })
+        .setColor('#000000')
+        .setTitle("Balance                 ")
+        .setDescription(`${userMention}`)
+        .setThumbnail(userAvatarURL);
 
-    const embedContainer = { 
-        embeds: [embed]
-    };
-
-    if (model.isNewMessage) {
-        model.msg.reply(embedContainer).catch(
-            error => console.error(error)
+        embed.addFields(
+            { name: 'Cookies', value: cookies, inline: true },
         );
-    } else {
-        model.msg.edit(embedContainer).catch(
-            error => console.error(error)
-        );
-    }
 
+        const embedContainer = { 
+            embeds: [embed]
+        };
+
+        model.interaction.reply(embedContainer).catch(
+            error => console.error(error)
+        ); 
     }
 
 }
+
+module.exports = new BalanceEmbed();

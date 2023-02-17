@@ -67,7 +67,7 @@ class Instance {
         }
     
         try {
-            command.execute(interaction);
+            command.execute(this.DAL, interaction);
         } catch (error) {
             console.error(`Error executing ${interaction.commandName}`);
             console.error(error);

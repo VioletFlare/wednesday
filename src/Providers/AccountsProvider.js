@@ -21,6 +21,16 @@ class AccountsProvider {
         });
     }
 
+    getCookies(guildId, userId) {
+        return this.DAL.Accounts.getCookies(guildId, userId).then(cookies => {
+            if (cookies && cookies.cookies) {
+                return cookies.cookies;
+            } else {
+                return 0;
+            }
+        });
+    }
+
 }
 
 module.exports = AccountsProvider;
