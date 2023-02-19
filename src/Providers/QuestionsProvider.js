@@ -1,7 +1,8 @@
 class QuestionsProvider {
 
-    constructor(DAL) {
+    constructor(guild, DAL) {
         this.DAL = DAL;
+        this.guild = guild;
     }
 
     insertQuestion(guildId, messageId, content) {
@@ -24,6 +25,30 @@ class QuestionsProvider {
         });
     }
 
+    collectAnswer(channel, qotdMessageId, userId, messageId) {
+        return this.DAL.Questions.getResponse(qotdMessageId, userId).then((response) => {
+            let hasBeenCollected = false;
+
+            if (!response) {
+                const member = this.guild.members.cache.find(
+                    member => member.user.id === userId
+                );
+
+                const username =  member.user.username;
+
+                channel.messages
+                .fetch(messageId)
+                .then(message =>  {
+                    this.DAL.Questions.insertResponse(qotdMessageId, userId, messageId, username, message.content);
+                })
+                .catch(console.error);
+
+                hasBeenCollected = true;
+            }
+
+            return hasBeenCollected;
+        });
+    }
 }
 
 module.exports = QuestionsProvider;

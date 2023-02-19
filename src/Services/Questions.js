@@ -53,7 +53,7 @@ class Questions {
     init() {
         this._setQOTDMessage();
 
-        this.QuestionsProvider = new QuestionsProvider(this.DAL);
+        this.QuestionsProvider = new QuestionsProvider(this.guild, this.DAL);
     }
 }
 

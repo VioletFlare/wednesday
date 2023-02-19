@@ -31,7 +31,7 @@ class QOTD {
     }
 
     init() {
-        this.QuestionsProvider = new QuestionsProvider(this.DAL);
+        this.QuestionsProvider = new QuestionsProvider(this.guild, this.DAL);
 
         this._initStorage().then(
             () => this._startQOTDServices()

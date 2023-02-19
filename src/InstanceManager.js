@@ -18,11 +18,13 @@ class InstanceManager {
     }
 
     _onMessageCreate(msg) {
-        const guildId = msg.guild.id;
-        const instance = this.sessions.get(guildId);
-
-        if (instance) {
-            instance.onMessageCreate(msg);
+        if (msg.guild) {
+            const guildId = msg.guild.id;
+            const instance = this.sessions.get(guildId);
+    
+            if (instance) {
+                instance.onMessageCreate(msg);
+            }
         }
     }
 
