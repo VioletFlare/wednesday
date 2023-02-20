@@ -26,6 +26,7 @@
 */
 
 const AccountsProvider = require('../Providers/AccountsProvider');
+const QuestionsProvider = require('../Providers/QuestionsProvider');
 
 class AnswerCollector {
 
@@ -38,6 +39,7 @@ class AnswerCollector {
 
     init() {
         this.AccountsProvider = new AccountsProvider(this.guild, this.DAL);
+        this.QuestionsProvider = new QuestionsProvider(this.guild, this.DAL);
     }
 
     onMessageCreate(msg) {
@@ -46,8 +48,12 @@ class AnswerCollector {
                 const isReplyingToQOTD = msg.reference.messageId === this.storage.questions.QOTDMessageId;
 
                 if (isReplyingToQOTD) {
-                    msg.react('🍪');
-                    this.AccountsProvider.incrementCookies(this.guild.id, msg.author.id, 1);
+                    this.QuestionsProvider.collectAnswer(this.channel, this.storage.questions.QOTDMessageId, msg.author.id, msg.id).then(hasBeenCollected => {
+                        if (hasBeenCollected) {
+                            msg.react('🍪');
+                            this.AccountsProvider.incrementCookies(this.guild.id, msg.author.id, 1);
+                        }
+                    });
                 }
             });
         }

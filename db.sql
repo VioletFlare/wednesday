@@ -22,10 +22,24 @@ CREATE TABLE `wednesday_accounts` (
 -- `rank`.wednesday_qotd definition
 
 CREATE TABLE `wednesday_qotd` (
-  `content` mediumtext NOT NULL,
+  `content` varchar(4096) NOT NULL,
   `guild_id` varchar(32) NOT NULL,
   `message_id` varchar(32) NOT NULL,
-  PRIMARY KEY (`guild_id`),
+  PRIMARY KEY (`guild_id`,`message_id`),
+  UNIQUE KEY `message_id` (`message_id`),
   KEY `guild_id` (`guild_id`),
   CONSTRAINT `wednesday_messages_ibfk_1` FOREIGN KEY (`guild_id`) REFERENCES `wednesday_guilds` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- `rank`.wednesday_qotd_responses definition
+
+CREATE TABLE `wednesday_qotd_responses` (
+  `username` varchar(32) DEFAULT NULL,
+  `user_id` varchar(32) NOT NULL,
+  `qotd_message_id` varchar(32) NOT NULL,
+  `message_id` varchar(32) NOT NULL,
+  `content` varchar(4096) DEFAULT NULL,
+  PRIMARY KEY (`user_id`,`qotd_message_id`),
+  KEY `qotd_message_id` (`qotd_message_id`),
+  CONSTRAINT `wednesday_qotd_responses_ibfk_1` FOREIGN KEY (`qotd_message_id`) REFERENCES `wednesday_qotd` (`message_id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
