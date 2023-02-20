@@ -1,11 +1,9 @@
-const QUESTIONS_CHILL_IT_V1 = require("../../static/questions_chill_it_v1");
-
 // Question Of The Day
 
 class QOTDMessage {
     
     send(model) {
-        const question = QUESTIONS_CHILL_IT_V1[model.day].question;
+        const question = model.questionOfTheDay;
 
         const message = `
 (๑ > ᴗ < ๑) ♡〜٩( ˃▿˂ )۶〜♡ (^ .‿. ^)

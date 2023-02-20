@@ -27,7 +27,6 @@
 
 const AccountsProvider = require('../Providers/AccountsProvider');
 const QuestionsProvider = require('../Providers/QuestionsProvider');
-const QOTDMessageResponseError = require('../Messages/QOTDMessageResponseError');
 
 class AnswerCollector {
 

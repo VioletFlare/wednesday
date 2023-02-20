@@ -57,9 +57,7 @@ class Questions {
                 INSERT INTO wednesday_qotd
                     (content, guild_id, message_id)
                 VALUES
-                    (${escapedContent}, ${guildId}, ${messageId})
-                ON DUPLICATE KEY UPDATE
-                    content = ${escapedContent}, guild_id = ${guildId}, message_id = ${messageId};
+                    (${escapedContent}, ${guildId}, ${messageId});
             `;
 
             connection.query(insertQuestion, (error, results, fields) => {

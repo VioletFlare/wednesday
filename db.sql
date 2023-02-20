@@ -22,10 +22,10 @@ CREATE TABLE `wednesday_accounts` (
 -- `rank`.wednesday_qotd definition
 
 CREATE TABLE `wednesday_qotd` (
-  `content` mediumtext NOT NULL,
+  `content` varchar(4096) NOT NULL,
   `guild_id` varchar(32) NOT NULL,
   `message_id` varchar(32) NOT NULL,
-  PRIMARY KEY (`guild_id`),
+  PRIMARY KEY (`guild_id`,`message_id`),
   UNIQUE KEY `message_id` (`message_id`),
   KEY `guild_id` (`guild_id`),
   CONSTRAINT `wednesday_messages_ibfk_1` FOREIGN KEY (`guild_id`) REFERENCES `wednesday_guilds` (`id`) ON DELETE CASCADE
