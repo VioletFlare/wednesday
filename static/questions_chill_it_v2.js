@@ -211,7 +211,7 @@ const QUESTIONS_CHILL_IT_V2 = [
       question:
         "Immagina di essere una persona creativa e avere ampie conoscenze su come creare giochi e simulazioni. Se potresti creare un gioco, che gioco sarebbe e di che cosa parlerebbe?",
     },
-    { question: "Qual è il tuo più grande regalo?" },
+    { question: "Hai mai ricevuto un regalo speciale nella tua vita che anche a distanza di tanti anni non hai mai dimenticato ?" },
     { question: "Qual è la tua app di telefono preferita?" },
     {
       question:
