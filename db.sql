@@ -43,3 +43,15 @@ CREATE TABLE `wednesday_qotd_responses` (
   KEY `qotd_message_id` (`qotd_message_id`),
   CONSTRAINT `wednesday_qotd_responses_ibfk_1` FOREIGN KEY (`qotd_message_id`) REFERENCES `wednesday_qotd` (`message_id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- `rank`.wednesday_booster_rewards definition
+
+CREATE TABLE `wednesday_booster_rewards` (
+  `username` varchar(32) DEFAULT NULL,
+  `guild_id` varchar(32) NOT NULL,
+  `user_id` varchar(32) NOT NULL,
+  `last_reward_ts` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`guild_id`, `user_id`),
+  KEY `wednesday_booster_rewards_ibfk_1` (`guild_id`),
+  CONSTRAINT `wednesday_booster_rewards_ibfk_1` FOREIGN KEY (`guild_id`) REFERENCES `wednesday_guilds` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

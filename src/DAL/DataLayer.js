@@ -2,6 +2,7 @@ const DB = require('./DB.js');
 const mysql = require('mysql2');
 const Accounts = require('./AccountsDAL.js');
 const Questions = require('./QuestionsDAL');
+const BoosterAwards = require('./BoosterAwardsDAL');
 
 class DataLayer {
 
