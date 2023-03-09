@@ -9,6 +9,7 @@ class DataLayer {
     constructor() {
         this.Accounts = new Accounts(DB);
         this.Questions = new Questions(DB);
+        this.BoosterAwards = new BoosterAwards(DB);
     }
 
     insertGuild(guildId, name) {
