@@ -2,12 +2,14 @@ const DB = require('./DB.js');
 const mysql = require('mysql2');
 const Accounts = require('./AccountsDAL.js');
 const Questions = require('./QuestionsDAL');
+const BoosterAwards = require('./BoosterAwardsDAL');
 
 class DataLayer {
 
     constructor() {
         this.Accounts = new Accounts(DB);
         this.Questions = new Questions(DB);
+        this.BoosterAwards = new BoosterAwards(DB);
     }
 
     insertGuild(guildId, name) {
