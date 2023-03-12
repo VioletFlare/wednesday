@@ -5,17 +5,15 @@ class BoosterAwards {
         this.DB = DB;
     }
 
-    insertLastRewardRecord(userId, guildId, username) {
+    insertLastRewardRecord(guildId) {
         this.DB.getConnection((err, connection) => {
-            const escapedUsername =  mysql.escape(username);
 
             const query = `
                 INSERT INTO wednesday_booster_rewards
-                    (username, guild_id, user_id, last_reward_ts)
+                    (guild_id, last_reward_ts)
                 VALUES
-                    (${escapedUsername}, ${guildId}, ${userId}, ${Date.now()})
+                    (${guildId}, ${Date.now()})
                 ON DUPLICATE KEY UPDATE
-                    username = ${escapedUsername}, 
                     last_reward_ts = ${Date.now()};
             `;
 
@@ -26,14 +24,14 @@ class BoosterAwards {
         });
     }
 
-    getLastRewardRecord(userId, guildId) {
+    getLastRewardRecord(guildId) {
         return new Promise(
             (resolve, reject) => {
                 this.DB.getConnection((err, connection) => {
 
                     const query = `
                         SELECT * FROM wednesday_booster_rewards
-                        WHERE user_id = ${userId} AND guild_id = ${guildId};
+                        WHERE guild_id = ${guildId};
                     `;
 
                     connection.query(query, (error, results, fields) => {

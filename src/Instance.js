@@ -1,6 +1,7 @@
 const IntegrityCheck = require('./Services/IntegrityCheck.js');
 const Goodnight = require('./Services/Goodnight.js');
 const QOTD = require('./Services/QOTD.js');
+const BoosterAwarder = require('./Services/BoosterAwarder');
 
 class Instance {
 
@@ -56,6 +57,8 @@ class Instance {
 
         this.qotd = new QOTD(this.config, this.channel, this.guild, this.DAL);
         this.qotd.init();
+
+        new BoosterAwarder(this.guild, this.DAL).init();
     }
 
     _handleChatInputCommand(interaction) {
