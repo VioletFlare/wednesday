@@ -41,7 +41,7 @@ class BoosterAwards {
                         if (results === undefined) {
                             reject(new Error("Results is undefined."));
                         } else {
-                            resolve(results);
+                            resolve(results[0]);
                         }
                     })
                 });

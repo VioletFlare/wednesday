@@ -10,8 +10,8 @@ class BoosterAwardsProvider {
     }
 
     getLastRewardTimestamp() {
-        return this.DAL.BoosterAwardsDAL.getLastRewardRecord(this.guild.id).then((record) => {
-            
+        return this.DAL.BoosterAwards.getLastRewardRecord(this.guild.id).then((record) => {
+            return record.last_reward_ts;
         });
     }
 
