@@ -44,7 +44,6 @@ class BoosterAwarder {
         this.AccountsProvider = new AccountsProvider(this.guild, this.DAL);
         this.BoosterAwardsProvider = new BoosterAwardsProvider(this.guild, this.DAL);
 
-        this._awardBoosters();
         this._startWatcher();
     }
 }
