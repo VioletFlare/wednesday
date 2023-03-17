@@ -357,7 +357,7 @@ const QUESTIONS_CHILL_IT_V2 = [
       question:
         "Come affronti il fatto di prenderti del tempo libero dal lavoro?",
     },
-    { question: "Ti dà fastidio se ti toccano i capelli?" },
+    { question: "Conosci il cubo di Rubik? Sei mai riuscito/a a completarlo?" },
     {
       question:
         "Che tipo di studente/studentessa sei/eri a scuola? Studi/Studiavi? O non te ne interessava niente?",
