@@ -25,6 +25,7 @@ CREATE TABLE `wednesday_qotd` (
   `content` varchar(4096) NOT NULL,
   `guild_id` varchar(32) NOT NULL,
   `message_id` varchar(32) NOT NULL,
+  `ts` bigint(20) NOT NULL DEFAULT 0,
   PRIMARY KEY (`guild_id`,`message_id`),
   UNIQUE KEY `message_id` (`message_id`),
   KEY `guild_id` (`guild_id`),

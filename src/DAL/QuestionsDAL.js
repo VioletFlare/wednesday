@@ -55,9 +55,9 @@ class Questions {
 
             const insertQuestion = `
                 INSERT INTO wednesday_qotd
-                    (content, guild_id, message_id)
+                    (content, guild_id, message_id, ts)
                 VALUES
-                    (${escapedContent}, ${guildId}, ${messageId});
+                    (${escapedContent}, ${guildId}, ${messageId}, ${Date.now()});
             `;
 
             connection.query(insertQuestion, (error, results, fields) => {
@@ -73,7 +73,9 @@ class Questions {
                 this.DB.getConnection((err, connection) => {
                     const getQuestion =  `
                             SELECT * FROM wednesday_qotd
-                            WHERE guild_id = ${guildId};
+                            WHERE guild_id = ${guildId}
+                            ORDER BY ts DESC
+                            LIMIT 1;
                         `;
 
                     connection.query(getQuestion, (error, results, fields) => {
