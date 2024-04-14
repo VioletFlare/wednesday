@@ -33,9 +33,11 @@ class Questions {
 
         if (hasService) {
             QOTDMessage.send(model).then(sentMessage => {
-                this.QuestionsProvider.insertQuestion(this.guild.id, sentMessage.id, questionOfTheDay);
+                if (sentMessage && sentMessage.id) {
+                    this.QuestionsProvider.insertQuestion(this.guild.id, sentMessage.id, questionOfTheDay);
 
-                this.storage.questions.QOTDMessageId = sentMessage.id;
+                    this.storage.questions.QOTDMessageId = sentMessage.id;
+                }
             });
         }
     }
